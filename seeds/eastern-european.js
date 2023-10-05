@@ -1,4 +1,9 @@
+const { EasternEuropean } = require('../models');
+
+const eedata = [
+
 {
+    "title": "Eastern European",
 	"recipes": [
 		{
 			"vegetarian": false,
@@ -55092,3 +55097,4 @@
 		}
 	]
 }
+]

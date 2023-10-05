@@ -1,5 +1,10 @@
+const { American } = require('../models');
+
+const americandata = [
+
 {
-	"recipes": [
+    "title": "American",
+	"recipes":  [
 		{
 			"vegetarian": false,
 			"vegan": false,
@@ -54513,3 +54518,4 @@
 		}
 	]
 }
+]
