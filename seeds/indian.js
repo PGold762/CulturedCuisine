@@ -1,4 +1,9 @@
+const { Indian } = require('../models');
+
+const indiandata = [
+
 {
+    "title": "Indian",
 	"recipes": [
 		{
 			"vegetarian": false,
@@ -25367,3 +25372,4 @@
 		}
 	]
 }
+]

@@ -1,4 +1,9 @@
+const { Italian } = require('../models');
+
+const italiandata = [
+
 {
+	"title": "Italian",
 	"recipes": [
 		{
 			"vegetarian": false,
@@ -56607,3 +56612,4 @@
 		}
 	]
 }
+]

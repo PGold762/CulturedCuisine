@@ -1,4 +1,9 @@
+const { Chinese } = require('../models');
+
+const chinesedata = [
+
 {
+    "title": "Chinese",
 	"recipes": [
 		{
 			"vegetarian": false,
@@ -14793,3 +14798,4 @@
 		}
 	]
 }
+]
