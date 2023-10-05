@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#homepage {
+    padding: 20px;
+    text-align: center;
+}
+
+#slideshow img {
+    width: 100%;
+    max-height: 300px;
+}
+
+#otherCuisines {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cuisine {
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.cuisine img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cuisine-info {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.explore-heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.cuisine-info {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
