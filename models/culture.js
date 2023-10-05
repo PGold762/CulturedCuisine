@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Comment extends Model {}
+class culture extends Model {}
 
-Comment.init(
+Culture.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -12,7 +12,7 @@ Comment.init(
       autoIncrement: true,
     },
     
-    comment: {
+    culture: {
       type: DataTypes.TEXT,
     },
     date_created: {
@@ -34,8 +34,8 @@ Comment.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'comment',
+    modelName: 'culture',
   }
 );
 
-module.exports = Comment;
+module.exports = Culture;
