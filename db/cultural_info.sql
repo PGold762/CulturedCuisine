@@ -1,5 +1,6 @@
 
 
+-- Merged with schema.sql file in db folder. This file currently not in use. 
 CREATE TABLE Eastern_European (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   descrip VARCHAR(500) NOT NULL,
