@@ -1,6 +1,6 @@
 const User = require('./User');
 const Recipe = require('./Recipe');
-const Culture =require('./culture');
+
 User.hasMany(Recipe, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
