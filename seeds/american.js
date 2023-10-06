@@ -54518,11 +54518,22 @@ const americandata = [
 			"originalId": null,
 			"spoonacularSourceUrl": "https://spoonacular.com/cherry-coke-float-cupcakes-with-chocolate-shell-637744"
 		}
-	]
+	],
+		"cultureFood": "Join us on a delectable journey across the highways of American food culture. From the soulful comfort of Southern barbecue to the bold and innovative dishes of the West Coast, our cookbook invites you to explore the flavors and stories that define American cuisine. Discover the art of crafting the perfect burger, the secret to finger-licking fried chicken, and the joy of savoring a slice of homemade apple pie. With a bounty of recipes that span coast to coast, we invite you to embrace the melting pot of culinary traditions that have shaped American cooking. Whether you're a lover of classic diner fare, regional specialties, or contemporary fusion cuisine, America has something for everyone. Join us in celebrating the delicious diversity of American food, where each dish is a slice of history and a taste of home.",
+
+		"cultureTradition": "One beloved American mealtime tradition is the Thanksgiving Dinner. Held on the fourth Thursday of November, it's a time for families and friends to gather, give thanks, and share a hearty feast. The centerpiece is a roasted turkey, symbolizing gratitude for the bountiful harvest. Accompanied by an array of side dishes like mashed potatoes, cranberry sauce, and stuffing, this tradition embodies the spirit of unity and appreciation. It's a day when people pause to reflect on their blessings and create lasting memories, emphasizing the importance of gratitude and togetherness in American culture."
 }
+
 ];
 
-// Iterate over each recipe
+for (const category of americandata) {
+	for (const recipe of category.recipes) {
+	  recipe.cultureFood = category.cultureFood;
+	  recipe.cultureTradition = category.cultureTradition;
+	}
+  }
+
+// Iterate over each recipe for Ingredients
 for (const recipe of americandata[0].recipes) {
 	const combinedIngredients = [];
   
