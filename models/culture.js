@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class culture extends Model {}
+class Culture extends Model {}
 
 Culture.init(
   {
