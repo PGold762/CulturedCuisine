@@ -14802,6 +14802,13 @@ const chinesedata = [
 }
 ];
 
+for (const category of chinesedata) {
+	for (const recipe of category.recipes) {
+	  recipe.cultureFood = category.cultureFood;
+	  recipe.cultureTradition = category.cultureTradition;
+	}
+  }
+
 // Iterate over each recipe
 for (const recipe of americandata[0].recipes) {
 	const combinedIngredients = [];
