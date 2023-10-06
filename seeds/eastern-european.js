@@ -1,5 +1,6 @@
 const { EasternEuropean } = require('../models');
 
+// Eastern European Recipes Data
 const eedata = [
 
 {
@@ -251,6 +252,7 @@ const eedata = [
 			"creditsText": "foodista.com",
 			"sourceName": "foodista.com",
 			"pricePerServing": 54.49,
+			"combinedIngredients": "",
 			"extendedIngredients": [
 				{
 					"id": 1001,
@@ -55097,4 +55099,22 @@ const eedata = [
 		}
 	]
 }
-]
+];
+
+// Iterate over each recipe
+for (const recipe of americandata[0].recipes) {
+	const combinedIngredients = [];
+  
+	// Iterate over each extended ingredient
+	for (const ingredient of recipe.extendedIngredients) {
+	  // Push the "original" field data into the combinedIngredients array
+	  combinedIngredients.push(ingredient.original);
+	}
+  
+	// Join the combinedIngredients array into a single string
+	recipe.combinedIngredients = combinedIngredients.join(', ');
+}
+
+const seedEE = () => EasternEuropean.bulkCreate(eedata);
+
+module.exports = seedEE;
