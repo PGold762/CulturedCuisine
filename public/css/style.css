@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Young Serif', serif, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -23,15 +23,18 @@ body {
 }
 
 .cuisine {
-    width: 30%;
+    width: 25%; 
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 30px; 
+    margin-right: 2%; 
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 .cuisine img {
     width: 100%;
     max-height: 200px;
-    object-fit: cover;
+    object-fit:contain;
     border-radius: 10px;
 }
 
@@ -61,6 +64,9 @@ body {
     height: auto;
   }
 
+  .navbar-brand, .nav-link{
+    letter-spacing: 1px;
+}
 @keyframes scroll {
     0% {
         transform: translateX(100%);
