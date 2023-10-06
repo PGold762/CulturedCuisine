@@ -15,21 +15,41 @@ Recipe.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    content: {
-      type: DataTypes.TEXT,
-    },
-    date_created: {
-      type: DataTypes.DATE,
-      allowNull: false,
-      defaultValue: DataTypes.NOW,
-    },
-    
-    user_id: {
+    servings: {
       type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
+      allowNull: false,
+    },
+    readInMinutes: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    sourceURL: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    image: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    summary: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    cuisines: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    combinedIngredients: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    cultureFood: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    cultureTradition: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
   },
   {
