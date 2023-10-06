@@ -1,5 +1,6 @@
 const { Chinese } = require('../models');
 
+// Chinese Recipes Data
 const chinesedata = [
 
 {
@@ -24,6 +25,7 @@ const chinesedata = [
 			"creditsText": "foodista.com",
 			"sourceName": "foodista.com",
 			"pricePerServing": 305.98,
+			"combinedIngredients": "",
 			"extendedIngredients": [
 				{
 					"id": 2048,
@@ -14798,4 +14800,22 @@ const chinesedata = [
 		}
 	]
 }
-]
+];
+
+// Iterate over each recipe
+for (const recipe of americandata[0].recipes) {
+	const combinedIngredients = [];
+  
+	// Iterate over each extended ingredient
+	for (const ingredient of recipe.extendedIngredients) {
+	  // Push the "original" field data into the combinedIngredients array
+	  combinedIngredients.push(ingredient.original);
+	}
+  
+	// Join the combinedIngredients array into a single string
+	recipe.combinedIngredients = combinedIngredients.join(', ');
+}
+
+const seedChinese = () => Chinese.bulkCreate(chinesedata);
+
+module.exports = seedChinese;

@@ -1,5 +1,6 @@
 const { American } = require('../models');
 
+// American Recipes Data
 const americandata = [
 
 {
@@ -25,6 +26,7 @@ const americandata = [
 			"license": "CC BY 3.0",
 			"sourceName": "Foodista",
 			"pricePerServing": 496.7,
+			"combinedIngredients": "",
 			"extendedIngredients": [
 				{
 					"id": 2048,
@@ -54518,4 +54520,22 @@ const americandata = [
 		}
 	]
 }
-]
+];
+
+// Iterate over each recipe
+for (const recipe of americandata[0].recipes) {
+	const combinedIngredients = [];
+  
+	// Iterate over each extended ingredient
+	for (const ingredient of recipe.extendedIngredients) {
+	  // Push the "original" field data into the combinedIngredients array
+	  combinedIngredients.push(ingredient.original);
+	}
+  
+	// Join the combinedIngredients array into a single string
+	recipe.combinedIngredients = combinedIngredients.join(', ');
+}
+
+const seedAmerican = () => American.bulkCreate(americandata);
+
+module.exports = seedAmerican;

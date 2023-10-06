@@ -1,5 +1,6 @@
 const { Italian } = require('../models');
 
+// Italian Recipes Data
 const italiandata = [
 
 {
@@ -24,6 +25,7 @@ const italiandata = [
 			"creditsText": "pinkwhen.com",
 			"sourceName": "pinkwhen.com",
 			"pricePerServing": 195.54,
+			"combinedIngredients": "",
 			"extendedIngredients": [
 				{
 					"id": 10120420,
@@ -56612,4 +56614,22 @@ const italiandata = [
 		}
 	]
 }
-]
+];
+
+// Iterate over each recipe
+for (const recipe of americandata[0].recipes) {
+	const combinedIngredients = [];
+  
+	// Iterate over each extended ingredient
+	for (const ingredient of recipe.extendedIngredients) {
+	  // Push the "original" field data into the combinedIngredients array
+	  combinedIngredients.push(ingredient.original);
+	}
+  
+	// Join the combinedIngredients array into a single string
+	recipe.combinedIngredients = combinedIngredients.join(', ');
+}
+
+const seedItalian = () => Italian.bulkCreate(italiandata);
+
+module.exports = seedItalian;

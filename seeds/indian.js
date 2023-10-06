@@ -1,5 +1,6 @@
 const { Indian } = require('../models');
 
+// Indian Recipes Data
 const indiandata = [
 
 {
@@ -24,6 +25,7 @@ const indiandata = [
 			"creditsText": "foodista.com",
 			"sourceName": "foodista.com",
 			"pricePerServing": 457.06,
+			"combinedIngredients": "",
 			"extendedIngredients": [
 				{
 					"id": 2031,
@@ -25372,4 +25374,22 @@ const indiandata = [
 		}
 	]
 }
-]
+];
+
+// Iterate over each recipe
+for (const recipe of americandata[0].recipes) {
+	const combinedIngredients = [];
+  
+	// Iterate over each extended ingredient
+	for (const ingredient of recipe.extendedIngredients) {
+	  // Push the "original" field data into the combinedIngredients array
+	  combinedIngredients.push(ingredient.original);
+	}
+  
+	// Join the combinedIngredients array into a single string
+	recipe.combinedIngredients = combinedIngredients.join(', ');
+}
+
+const seedindian = () => Indian.bulkCreate(indiandata);
+
+module.exports = seedindian;
