@@ -1,4 +1,4 @@
-const { Mexican } = require('../models');
+const { Recipe } = require('../models');
 
 // Mexican Recipes Data
 const mexicandata = [
@@ -38002,7 +38002,7 @@ for (const category of mexicandata) {
   }
 
 // Iterate over each recipe
-for (const recipe of americandata[0].recipes) {
+for (const recipe of mexicandata[0].recipes) {
 	const combinedIngredients = [];
   
 	// Iterate over each extended ingredient
@@ -38015,6 +38015,6 @@ for (const recipe of americandata[0].recipes) {
 	recipe.combinedIngredients = combinedIngredients.join(', ');
 }
 
-const seedEE = () => EasternEuropean.bulkCreate(eedata);
+const seedMexican = () => Recipe.bulkCreate(mexicandata);
 
-module.exports = seedEE;
+module.exports = seedMexican;

@@ -13,42 +13,42 @@ Recipe.init(
     },
     title: {
       type: DataTypes.STRING,
-      allowNull: false,
+      defaultValue: null,
     },
     servings: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      defaultValue: null,
     },
     readInMinutes: {
       type: DataTypes.INTEGER,
-      allowNull: false,
+      defaultValue: null,
     },
     sourceURL: {
       type: DataTypes.STRING,
-      allowNull: false,
+      defaultValue: null,
     },
     image: {
       type: DataTypes.STRING,
-      allowNull: false,
+      defaultValue: null,
     },
     summary: {
       type: DataTypes.STRING,
-      allowNull: false,
+      defaultValue: null,
     },
     cuisines: {
       type: DataTypes.STRING,
-      allowNull: false,
+      defaultValue: null,
     },
     combinedIngredients: {
       type: DataTypes.STRING,
-      allowNull: false,
+      defaultValue: null,
     },
     cultureFood: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
     cultureTradition: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: false,
     },
   },
