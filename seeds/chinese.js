@@ -14313,7 +14313,7 @@ for (const category of chinesedata) {
 }
 
 // Iterate over each recipe
-for (const recipe of americandata[0].recipes) {
+for (const recipe of chinesedata[0].recipes) {
   const combinedIngredients = [];
 
   // Iterate over each extended ingredient

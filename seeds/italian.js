@@ -54837,7 +54837,7 @@ for (const category of italiandata) {
 }
 
 // Iterate over each recipe
-for (const recipe of americandata[0].recipes) {
+for (const recipe of italiandata[0].recipes) {
   const combinedIngredients = [];
 
   // Iterate over each extended ingredient

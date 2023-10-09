@@ -1,4 +1,4 @@
-const { Mexican } = require('../models');
+const { Mexican } = require("../models");
 
 // Mexican Recipes Data
 const mexicandata = [
@@ -37995,24 +37995,24 @@ const mexicandata = [
 ];
 
 for (const category of mexicandata) {
-	for (const recipe of category.recipes) {
-	  recipe.cultureFood = category.cultureFood;
-	  recipe.cultureTradition = category.cultureTradition;
-	}
+  for (const recipe of category.recipes) {
+    recipe.cultureFood = category.cultureFood;
+    recipe.cultureTradition = category.cultureTradition;
   }
+}
 
 // Iterate over each recipe
-for (const recipe of americandata[0].recipes) {
-	const combinedIngredients = [];
-  
-	// Iterate over each extended ingredient
-	for (const ingredient of recipe.extendedIngredients) {
-	  // Push the "original" field data into the combinedIngredients array
-	  combinedIngredients.push(ingredient.original);
-	}
-  
-	// Join the combinedIngredients array into a single string
-	recipe.combinedIngredients = combinedIngredients.join(', ');
+for (const recipe of mexicandata[0].recipes) {
+  const combinedIngredients = [];
+
+  // Iterate over each extended ingredient
+  for (const ingredient of recipe.extendedIngredients) {
+    // Push the "original" field data into the combinedIngredients array
+    combinedIngredients.push(ingredient.original);
+  }
+
+  // Join the combinedIngredients array into a single string
+  recipe.combinedIngredients = combinedIngredients.join(", ");
 }
 
 const seedEE = () => EasternEuropean.bulkCreate(eedata);
