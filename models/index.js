@@ -9,11 +9,6 @@ User.hasMany(Recipe, {
 Recipe.belongsTo(User, {
   foreignKey: 'user_id'
 });
-User.hasMany(Culture, {
-  foreignKey: "user_id"
-})
-Recipe.hasMany(Culture, {
-  foreignKey:'recipe_id'
-})
 
-module.exports = { User, Recipe, Culture };
+
+module.exports = { User, Recipe };
