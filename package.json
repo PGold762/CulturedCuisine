@@ -21,6 +21,8 @@
     "mysql2": "^2.3.3",
     "node": "^20.7.0",
     "purecss": "^3.0.0",
-    "sequelize": "^6.33.0"
+    "sequelize": "^6.33.0",
+    "connect-session-sequelize": "^7.0.4",
+    "express-session": "^1.17.1"
   }
 }
