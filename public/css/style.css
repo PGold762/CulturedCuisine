@@ -1,4 +1,5 @@
 #homepage {
+    margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
@@ -8,11 +9,30 @@
     margin: 0 auto;
     padding: 20px;
     display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    justify-content: center;
+}
+
+.oc-heading {
+    width:100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .cuisine {
+        width: 100%; 
+        margin-right: 0; 
+    }
+}
+
+.cuisine-container {
+    display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
-.cuisine-wrapper {}
+
 .cuisine {
     width: 25%; 
     box-sizing: border-box;
@@ -20,12 +40,14 @@
     margin-right: 2%; 
     border: 2px solid black;
     border-radius: 15px;
+    padding: 2px 5px;
+    background-color: #f9f9f9;
 }
 
 .cuisine img {
     width: 100%;
     max-height: 200px;
-    object-fit:contain;
+    /* object-fit:contain; */
     border-radius: 10px;
 }
 
@@ -65,7 +87,9 @@
         transform: translateX(-100%);
     }
 }
-
+#image-carousel {
+    width: 100%;
+}
 .splide__slide img {
     width: 40%;
     height: auto;
