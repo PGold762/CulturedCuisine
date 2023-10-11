@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 768px) {
     .cuisine {
-        display: table;
+        min-width: fit-content;
     }
 
     .cuisine-container {
