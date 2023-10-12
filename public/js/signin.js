@@ -54,4 +54,3 @@ document
 document
   .querySelector('.signup-form')
   .addEventListener('click', createButton);
-  console.log(err.message)
