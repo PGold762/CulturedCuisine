@@ -1,6 +1,6 @@
 const { create } = require("domain");
 
-const signinFormHandler = async (event) => {
+const loginFormHandler = async (event) => {
   event.preventDefault();
 
   // Collect values from the login form
@@ -9,7 +9,7 @@ const signinFormHandler = async (event) => {
 
   if (email && password) {
     // Send a POST request to the API endpoint
-    const response = await fetch('/api/users/signin', {
+    const response = await fetch('/api/users/login', {
       method: 'POST',
       body: JSON.stringify({ email, password }),
       headers: { 'Content-Type': 'application/json' },
@@ -48,9 +48,10 @@ const signupFormHandler = async (event) => {
 };
 
 document
-  .querySelector('.signin-form')
-  .addEventListener('submit', signinFormHandler);
+  .querySelector('.login-form')
+  .addEventListener('submit', loginFormHandler);
 
 document
   .querySelector('.signup-form')
   .addEventListener('click', createButton);
+  console.log(err.message)
