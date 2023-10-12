@@ -1,4 +1,4 @@
-const { EasternEuropean } = require("../models");
+const { Recipe } = require("../models");
 
 // Eastern European Recipes Data
 const eedata = [
@@ -53339,7 +53339,7 @@ const eedata = [
       },
     ],
 
-	cultureFood:
+    cultureFood:
       "Eastern Europe is a vast area encompassing many cultures including Slavic, Hungarian, Romanian, and Baltic peoples. The climate of Eastern Europe has been extremely infulencial its peoples' food. The cold climate has made it difficult to grow fruits and vegetables, and farmers have had to rely on potatoes, grains, and dairy products as well as fishing, hunting, and herding. The cuisine of Eastern Europe is hearty, heavy on the starches, sauerkraut, and meats.our cream and dill are frequent accompaniments, creating a unique balance of savory and tangy tastes. Desserts like strudel and honey-soaked pastries provide a sweet finale to this diverse and satisfying culinary heritage.",
 
     cultureTradition: `Russian table traditions revolve around toasts. They often start with "Za zdorovye!" (To health!) or "Za lyubov!" (To love!). Toasts express goodwill, gratitude, and respect. At the table, it's important to make eye contact and clink glasses with everyone.`,
@@ -53354,7 +53354,7 @@ for (const category of eedata) {
 }
 
 // Iterate over each recipe
-for (const recipe of americandata[0].recipes) {
+for (const recipe of eedata[0].recipes) {
   const combinedIngredients = [];
 
   // Iterate over each extended ingredient
@@ -53367,6 +53367,6 @@ for (const recipe of americandata[0].recipes) {
   recipe.combinedIngredients = combinedIngredients.join(", ");
 }
 
-const seedEE = () => EasternEuropean.bulkCreate(eedata);
+const seedEE = () => Recipe.bulkCreate(eedata);
 
 module.exports = seedEE;

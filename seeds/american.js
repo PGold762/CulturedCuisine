@@ -1,4 +1,4 @@
-const { American } = require("../models");
+const { Recipe } = require("../models");
 
 // American Recipes Data
 const americandata = [
@@ -53199,6 +53199,6 @@ for (const recipe of americandata[0].recipes) {
   recipe.combinedIngredients = combinedIngredients.join(", ");
 }
 
-const seedAmerican = () => American.bulkCreate(americandata);
+const seedAmerican = () => Recipe.bulkCreate(americandata);
 
 module.exports = seedAmerican;

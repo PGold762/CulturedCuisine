@@ -1,4 +1,4 @@
-const { Chinese } = require("../models");
+const { Recipe } = require("../models");
 
 // Chinese Recipes Data
 const chinesedata = [
@@ -14313,7 +14313,7 @@ for (const category of chinesedata) {
 }
 
 // Iterate over each recipe
-for (const recipe of americandata[0].recipes) {
+for (const recipe of chinesedata[0].recipes) {
   const combinedIngredients = [];
 
   // Iterate over each extended ingredient
@@ -14326,6 +14326,6 @@ for (const recipe of americandata[0].recipes) {
   recipe.combinedIngredients = combinedIngredients.join(", ");
 }
 
-const seedChinese = () => Chinese.bulkCreate(chinesedata);
+const seedChinese = () => Recipe.bulkCreate(chinesedata);
 
 module.exports = seedChinese;

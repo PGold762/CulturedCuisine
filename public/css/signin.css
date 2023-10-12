@@ -1,0 +1,106 @@
+#sign-in,
+#sign-up {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: outset;
+    border-radius: 15px;
+    font-family: "Young Serif";
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#first-name-container,
+#last-name-container {
+    display: inline-block;
+}
+
+#sign-up-password-container,
+#confirm-password-container {
+    display: inline-block;
+}
+
+#sign-up-email-container input {
+    width: 515px;
+}
+
+#sign-in-button {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width:25%;
+    height:55px;
+    border:none;
+    border-radius:5px;
+    font-size:17px;
+    font-weight:600;
+    color:#fff;
+    background-color:#1859c9;
+    cursor:pointer;
+    font-family: "Young Serif";
+}
+
+#create-button {
+    margin-top: 50px;
+    width:25%;
+    height:55px;
+    margin-right:7px;
+    border:none;
+    border-radius:5px;
+    background-color:#e9ecf0;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    font-family: "Young Serif";
+}
+
+#create-button,
+#sign-up-phrase,
+#already {
+    margin-bottom: 50px;
+}
+
+#view-recipes {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px inset;
+    margin: 20px 0;
+    padding: 30px;
+    font-size: 18px;
+}
+
+input::placeholder {
+    font-family: "Young Serif";
+}
+
+a {
+    font-family: "Young Serif";
+    text-decoration: none;
+}
+
+#sign-in-email,
+#first-name,
+#last-name,
+#sign-up-email {
+    font-family: "Young Serif";
+}
+
+@media (max-width: 992px) {
+    #sign-in,
+    #sign-up {
+        max-width: 100%;
+        margin: 50px;
+    }
+
+    #sign-up-email-container input {
+        width: 236px;
+    }
+}
