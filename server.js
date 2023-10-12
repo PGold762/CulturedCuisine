@@ -7,6 +7,7 @@ const helpers = require('./utils/helpers');
 
 
 const sequelize = require('./config/connection');
+const exp = require('constants');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
@@ -31,6 +32,8 @@ const sess = {
 };
 
 app.use(session(sess));
+
+app.use(express.static('public'));
 
 // Inform Express.js on which template engine to use
 app.engine('handlebars', hbs.engine);

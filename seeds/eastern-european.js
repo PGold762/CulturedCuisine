@@ -245,6 +245,7 @@ const eedata = [
         sourceName: "foodista.com",
         pricePerServing: 54.49,
         combinedIngredients: "",
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001,
@@ -742,6 +743,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 196.83,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1159,
@@ -1204,6 +1206,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 262.65,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4053,
@@ -1659,6 +1662,7 @@ const eedata = [
         license: "CC BY-SA 3.0",
         sourceName: "Full Belly Sisters",
         pricePerServing: 303.59,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211821,
@@ -2261,6 +2265,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 189.86,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11206,
@@ -2514,6 +2519,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 393.49,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10123,
@@ -3199,6 +3205,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 174.32,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18033,
@@ -3497,6 +3504,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 49.24,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10123,
@@ -3831,6 +3839,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 92.95,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 16053,
@@ -4239,6 +4248,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 92.11,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18334,
@@ -4808,6 +4818,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 179.74,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 20081,
@@ -5324,6 +5335,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 39.46,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11080,
@@ -5659,6 +5671,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 140.59,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 19334,
@@ -6163,6 +6176,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 176.15,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10093727,
@@ -6457,6 +6471,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 181.21,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10023618,
@@ -7105,6 +7120,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 153.85,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 19334,
@@ -7496,6 +7512,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 287.15,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 20420,
@@ -8105,6 +8122,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 193.18,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18009,
@@ -8400,6 +8418,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 439.95,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11265,
@@ -8947,6 +8966,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 81.38,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001,
@@ -9410,6 +9430,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 92.43,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11209,
@@ -9931,6 +9952,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 112.31,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 19904,
@@ -10183,6 +10205,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 392.22,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002030,
@@ -10764,6 +10787,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 136.32,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10020052,
@@ -11279,6 +11303,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 113.74,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11124,
@@ -11829,6 +11854,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 89.44,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11209,
@@ -12200,6 +12226,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 202.35,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 20004,
@@ -12818,6 +12845,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 117.52,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 20081,
@@ -13265,6 +13293,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 173.08,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002030,
@@ -13711,6 +13740,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 186.42,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211821,
@@ -14591,6 +14621,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 206.4,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4053,
@@ -15218,6 +15249,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 310.07,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11209,
@@ -15731,6 +15763,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 400.12,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002030,
@@ -16169,6 +16202,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 62.62,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9252,
@@ -16723,6 +16757,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 534.59,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001009,
@@ -17138,6 +17173,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 289.53,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10013346,
@@ -17979,6 +18015,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 382.96,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 20035,
@@ -18591,6 +18628,7 @@ const eedata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 136.02,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11549,
@@ -19457,6 +19495,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 455.95,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4053,
@@ -20023,6 +20062,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 235.52,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18029,
@@ -20504,6 +20544,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 335.21,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 23618,
@@ -20913,6 +20954,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 143.25,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9040,
@@ -21389,6 +21431,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 486.98,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18369,
@@ -22330,6 +22373,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 106.15,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10620420,
@@ -22630,6 +22674,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 473.54,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 15270,
@@ -23699,6 +23744,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 265.56,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 2044,
@@ -24467,6 +24513,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 195.11,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11422,
@@ -24893,6 +24940,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 239.49,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 20011,
@@ -25398,6 +25446,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 401.16,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1034053,
@@ -26147,6 +26196,7 @@ const eedata = [
         creditsText: "afrolems.com",
         sourceName: "afrolems.com",
         pricePerServing: 146.54,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 23572,
@@ -26847,6 +26897,7 @@ const eedata = [
         license: "CC BY-SA 3.0",
         sourceName: "Full Belly Sisters",
         pricePerServing: 147.74,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18064,
@@ -27078,6 +27129,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 37.26,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1006,
@@ -27389,6 +27441,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 186.22,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 6170,
@@ -28275,6 +28328,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 20.06,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 20081,
@@ -28889,6 +28943,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 216.66,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 2004,
@@ -29311,6 +29366,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 114.17,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11485,
@@ -30498,6 +30554,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 143.38,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1095,
@@ -30886,6 +30943,7 @@ const eedata = [
         license: "CC BY-SA 3.0",
         sourceName: "Full Belly Sisters",
         pricePerServing: 54.39,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001,
@@ -31123,6 +31181,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 197.81,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002030,
@@ -31670,6 +31729,7 @@ const eedata = [
         license: "CC BY-SA 3.0",
         sourceName: "Full Belly Sisters",
         pricePerServing: 148.2,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1034053,
@@ -31971,6 +32031,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 538.94,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 2004,
@@ -32736,6 +32797,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 212.08,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10011693,
@@ -33526,6 +33588,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 24.36,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18369,
@@ -34190,6 +34253,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 293.93,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001001,
@@ -34816,6 +34880,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 154.47,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11422,
@@ -35375,6 +35440,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 260.44,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1022030,
@@ -35846,6 +35912,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 59.0,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4053,
@@ -36415,6 +36482,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 742.04,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 17276,
@@ -36887,6 +36955,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 119.0,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18064,
@@ -37267,6 +37336,7 @@ const eedata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 155.09,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001,
@@ -37689,6 +37759,7 @@ const eedata = [
         creditsText: "Jen West",
         sourceName: "Pink When",
         pricePerServing: 167.74,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1017,
@@ -38358,6 +38429,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 235.04,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 6172,
@@ -38924,6 +38996,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 310.84,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 98853,
@@ -39405,6 +39478,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 489.94,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4053,
@@ -39885,6 +39959,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 132.11,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11959,
@@ -40419,6 +40494,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 463.16,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18079,
@@ -41262,6 +41338,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 178.83,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18363,
@@ -42064,6 +42141,7 @@ const eedata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 333.08,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 99025,
@@ -42535,6 +42613,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 34.15,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 14412,
@@ -43013,6 +43092,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 143.08,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1049,
@@ -43508,6 +43588,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 102.79,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10123,
@@ -43857,6 +43938,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 288.28,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4669,
@@ -44900,6 +44982,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 51.76,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10218099,
@@ -45638,6 +45721,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 391.51,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1004,
@@ -45942,6 +46026,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 25.02,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18369,
@@ -46300,6 +46385,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1318.4,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4053,
@@ -46812,6 +46898,7 @@ const eedata = [
         creditsText: "Jen West",
         sourceName: "Pink When",
         pricePerServing: 183.99,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11333,
@@ -47254,6 +47341,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 402.9,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11485,
@@ -48161,6 +48249,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 49.55,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18369,
@@ -48720,6 +48809,7 @@ const eedata = [
         creditsText: "Jen West",
         sourceName: "Pink When",
         pricePerServing: 39.84,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18369,
@@ -49137,6 +49227,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 277.97,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10020409,
@@ -49496,6 +49587,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 109.05,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1009040,
@@ -49900,6 +49992,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 66.11,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211962,
@@ -50353,6 +50446,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 260.07,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11520421,
@@ -50632,6 +50726,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 395.49,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10023572,
@@ -51439,6 +51534,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 135.35,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18334,
@@ -52002,6 +52098,7 @@ const eedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 243.4,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10020420,
@@ -52552,6 +52649,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 9.72,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002050,
@@ -52974,6 +53072,7 @@ const eedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 95.74,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1123,

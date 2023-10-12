@@ -572,6 +572,7 @@ const chinesedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 271.36,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11124,
@@ -1191,6 +1192,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 228.79,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 19350,
@@ -1734,6 +1736,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 125.93,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 4058,
@@ -2374,6 +2377,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 63.6,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11090,
@@ -3037,6 +3041,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 26.28,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10219,
@@ -3920,6 +3925,7 @@ const chinesedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 213.5,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 93803,
@@ -4473,6 +4479,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 166.83,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1123,
@@ -4801,6 +4808,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 24.89,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10018368,
@@ -5421,6 +5429,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 42.31,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 15141,
@@ -5842,6 +5851,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1855.16,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10219,
@@ -6442,6 +6452,7 @@ const chinesedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 390.43,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 16063,
@@ -7314,6 +7325,7 @@ const chinesedata = [
         creditsText: "afrolems.com",
         sourceName: "afrolems.com",
         pricePerServing: 151.08,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 6172,
@@ -7634,6 +7646,7 @@ const chinesedata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 214.28,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1034053,
@@ -8316,6 +8329,7 @@ const chinesedata = [
         license: "CC BY-SA 3.0",
         sourceName: "Full Belly Sisters",
         pricePerServing: 112.39,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11090,
@@ -9032,6 +9046,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 118.01,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002030,
@@ -9583,6 +9598,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 617.9,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10011457,
@@ -10396,6 +10412,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 56.03,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 93756,
@@ -10708,6 +10725,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 321.68,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10020444,
@@ -11434,6 +11452,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 677.79,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1123,
@@ -11945,6 +11964,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 62.13,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11165,
@@ -12567,6 +12587,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 257.61,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11043,
@@ -13117,6 +13138,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 2014.86,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10023572,
@@ -13813,6 +13835,7 @@ const chinesedata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 219.84,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11304,
