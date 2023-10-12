@@ -1,3 +1,18 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultured Cuisines</title>
+    <link rel="stylesheet" href="node_modules\@splidejs\splide\dist\css\splide-core.min.css">
+    <link rel="stylesheet" href="node_modules\@splidejs\splide\dist\css\themes\splide-default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
         <!-- Homepage with slideshow of cuisines -->
         <div id="homepage">
             <h1>Welcome to Cultured Cuisines</h1>
@@ -5,13 +20,22 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="{{image}}" alt="">
+                            <img src="https://spoonacular.com/recipeImages/664080-556x370.jpg" alt="">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{image}}" alt="">
+                            <img src="https://spoonacular.com/recipeImages/663104-556x370.jpg" alt="">
                         </li>
                         <li class="splide__slide">
-                            <img src="{{image}}" alt="">
+                            <img src="https://spoonacular.com/recipeImages/662264-556x370.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="https://spoonacular.com/recipeImages/652834-556x370.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="https://spoonacular.com/recipeImages/642614-556x370.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="https://spoonacular.com/recipeImages/659174-556x370.jpg" alt="">
                         </li>
                     </ul>
                 </div>
@@ -25,101 +49,51 @@
             <div class="cuisine-container">
                 <div class="cuisine">
                     <a href="about_cuisine4.html">
-                        <img src="TestApple.jpg" alt="Cuisine 4">
+                        <img src="https://spoonacular.com/recipeImages/632570-556x370.jpg" alt="Cuisine 4">
                     </a>
                     <div class="cuisine-info">
-                        <p>Cuisine 4 Description</p>
+                        <p>Apple Pie Honey Wheat Scones</p>
                     </div>
                 </div>
                 <div class="cuisine">
                     <a href="about_cuisine5.html">
-                        <img src="TestApple.jpg" alt="Cuisine 5">
+                        <img src="https://spoonacular.com/recipeImages/638642-556x370.jpg" alt="Cuisine 5">
                     </a>
                     <div class="cuisine-info">
-                        <p>Cuisine 5 Description</p>
+                        <p>Chinese Chicken Salad With Chipotle Dressing</p>
                     </div>
                 </div>
                 <div class="cuisine">
                     <a href="about_cuisine6.html">
-                        <img src="TestApple.jpg" alt="Cuisine 6">
+                        <img src="https://spoonacular.com/recipeImages/654125-556x370.jpg" alt="Cuisine 6">
                     </a>
                     <div class="cuisine-info">
-                        <p>Cuisine 6 Description</p>
+                        <p>Osso Buco</p>
                     </div>
                 </div>
                 <div class="cuisine">
                     <a href="about_cuisine7.html">
-                        <img src="TestApple.jpg" alt="Cuisine 7">
+                        <img src="https://spoonacular.com/recipeImages/633088-556x370.jpg" alt="Cuisine 7">
                     </a>
                     <div class="cuisine-info">
-                        <p>Cuisine 7 Description</p>
+                        <p>Authentic Jamaican Curry Chicken</p>
                     </div>
                 </div>
                 <div class="cuisine">
                     <a href="about_cuisine8.html">
-                        <img src="TestApple.jpg" alt="Cuisine 8">
+                        <img src="https://spoonacular.com/recipeImages/660944-556x370.jpg" alt="Cuisine 8">
                     </a>
                     <div class="cuisine-info">
-                        <p>Cuisine 8 Description</p>
+                        <p>Spiced Chicken With Risotto, Wild Mushroom Cognac Cream, and Pan-Seared Ramps</p>
                     </div>
                 </div>
                 <div class="cuisine">
                     <a href="about_cuisine9.html">
-                        <img src="TestApple.jpg" alt="Cuisine 9">
+                        <img src="https://spoonacular.com/recipeImages/645730-556x370.jpg" alt="Cuisine 9">
                     </a>
                     <div class="cuisine-info">
-                        <p>Cuisine 9 Description</p>
+                        <p>Grilled Guacamole with Pistachios</p>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Loop over each object in the projects array -->
-{{#each recipes as |recipe|}}
-  <div class="row mb-4 project">
-    <div class="col-md-5">
-      <h2>
-         Call helper function with triple brackets to render the emoji span as HTML 
-
-        <a href="/post/{{recipe.id}}">{{recipe.title}}</a>
-      </h2>
-      {{!-- <p>Created by {{recipe.user.name}} on {{format_date recipe.date_created}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{recipe.content}}
-    </p> --}}
-    </div>
-  </div>
-{{/each}}
