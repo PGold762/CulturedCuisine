@@ -96,11 +96,15 @@ a {
 @media (max-width: 992px) {
     #sign-in,
     #sign-up {
-        max-width: 100%;
         margin: 50px;
     }
 
     #sign-up-email-container input {
         width: 236px;
+    }
+    
+    #create {
+        display: flex;
+        flex-direction: column;
     }
 }
