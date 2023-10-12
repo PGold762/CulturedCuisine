@@ -431,6 +431,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 91.88,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -868,6 +869,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 521.8,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 93607,
@@ -1072,6 +1074,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 54.61,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211821,
@@ -1551,6 +1554,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 181.48,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -2271,6 +2275,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 262.25,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -2947,6 +2952,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 256.86,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1034053,
@@ -3622,6 +3628,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 301.97,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5662,
@@ -4134,6 +4141,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 123.91,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -4466,6 +4474,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1215.01,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 99210,
@@ -5099,6 +5108,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 186.6,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -5881,6 +5891,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 155.38,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5062,
@@ -6434,6 +6445,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 131.27,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211821,
@@ -6969,6 +6981,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 439.16,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1053,
@@ -7310,6 +7323,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 75.26,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9050,
@@ -7615,6 +7629,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 92.47,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1039037,
@@ -8022,6 +8037,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 130.73,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -8356,6 +8372,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 230.63,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 99246,
@@ -8845,6 +8862,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 148.69,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 98922,
@@ -9576,6 +9594,7 @@ const mexicandata = [
         creditsText: "blogspot.com",
         sourceName: "blogspot.com",
         pricePerServing: 380.2,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1123,
@@ -9817,6 +9836,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 268.73,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11165,
@@ -10279,6 +10299,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 234.4,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11177,
@@ -10678,6 +10699,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 454.32,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 15261,
@@ -11187,6 +11209,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1020.19,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10220445,
@@ -11678,6 +11701,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 41.56,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11165,
@@ -12193,6 +12217,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 250.66,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 16015,
@@ -12813,6 +12838,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 271.9,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1055062,
@@ -13334,6 +13360,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 141.43,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 16018,
@@ -13605,6 +13632,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 205.18,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10011693,
@@ -14227,6 +14255,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 274.7,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10314037,
@@ -14548,6 +14577,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 453.77,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -15039,6 +15069,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1278.81,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9316,
@@ -15303,6 +15334,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 75.06,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9316,
@@ -15711,6 +15743,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 156.09,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10016213,
@@ -16360,6 +16393,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 435.16,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -16887,6 +16921,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 135.18,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 6599,
@@ -17312,6 +17347,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 14.01,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001,
@@ -17760,6 +17796,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 214.6,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10014412,
@@ -18017,6 +18054,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 337.66,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10311821,
@@ -18707,6 +18745,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1472.69,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1009206,
@@ -19012,6 +19051,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 128.72,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5062,
@@ -19711,6 +19751,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 276.83,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -20402,6 +20443,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 444.51,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002030,
@@ -20779,6 +20821,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 76.34,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211693,
@@ -21147,6 +21190,7 @@ const mexicandata = [
         creditsText: "pinkwhen.com",
         sourceName: "pinkwhen.com",
         pricePerServing: 263.47,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5062,
@@ -21537,6 +21581,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 228.11,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11954,
@@ -22003,6 +22048,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 798.34,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211529,
@@ -23747,6 +23793,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 442.31,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 16018,
@@ -24600,6 +24647,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 187.85,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 43274,
@@ -25092,6 +25140,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 87.21,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1039037,
@@ -25520,6 +25569,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 259.54,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1055062,
@@ -26441,6 +26491,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 166.51,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18363,
@@ -27048,6 +27099,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 137.6,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -27639,6 +27691,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 271.85,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1014582,
@@ -28369,6 +28422,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 333.17,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11333,
@@ -29039,6 +29093,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 207.84,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9176,
@@ -29633,6 +29688,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 222.17,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -30322,6 +30378,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 835.24,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -31074,6 +31131,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 283.16,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1055062,
@@ -31794,6 +31852,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 210.99,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211821,
@@ -32317,6 +32376,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 273.07,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 9037,
@@ -33344,6 +33404,7 @@ const mexicandata = [
         creditsText: "Jen West",
         sourceName: "Pink When",
         pricePerServing: 891.1,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11165,
@@ -33724,6 +33785,7 @@ const mexicandata = [
         license: "CC BY 4.0",
         sourceName: "Afrolems",
         pricePerServing: 428.51,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10311529,
@@ -34055,6 +34117,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 139.02,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5114,
@@ -35340,6 +35403,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 141.2,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 14412,
@@ -35963,6 +36027,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 451.1,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211821,
@@ -36722,6 +36787,7 @@ const mexicandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 179.57,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11206,
@@ -37540,6 +37606,7 @@ const mexicandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 150.92,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10211821,

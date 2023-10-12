@@ -589,6 +589,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 119.98,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1005091,
@@ -1426,6 +1427,7 @@ const indiandata = [
         license: "CC BY 2.5 CA",
         sourceName: "Food and Spice",
         pricePerServing: 94.05,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 16063,
@@ -2158,6 +2160,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 229.9,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5006,
@@ -2433,6 +2436,7 @@ const indiandata = [
         license: "spoonacular's terms",
         sourceName: "spoonacular",
         pricePerServing: 142.38,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 16053,
@@ -3013,6 +3017,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 122.74,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1034053,
@@ -3757,6 +3762,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 164.1,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18369,
@@ -4344,6 +4350,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 164.0,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 93663,
@@ -4990,6 +4997,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 165.35,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5062,
@@ -5725,6 +5733,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 219.1,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5062,
@@ -6449,6 +6458,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 287.83,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 2004,
@@ -7068,6 +7078,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 117.24,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1032009,
@@ -7399,6 +7410,7 @@ const indiandata = [
         license: "spoonacular's terms",
         sourceName: "spoonacular",
         pricePerServing: 128.57,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1022006,
@@ -7865,6 +7877,7 @@ const indiandata = [
         creditsText: "afrolems.com",
         sourceName: "afrolems.com",
         pricePerServing: 243.53,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 12118,
@@ -8331,6 +8344,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 94.87,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11209,
@@ -8922,6 +8936,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 16.52,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001,
@@ -9421,6 +9436,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1348.09,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 99004,
@@ -10460,6 +10476,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 143.91,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5062,
@@ -10930,6 +10947,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 198.07,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 2015,
@@ -11356,6 +11374,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 106.9,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1001,
@@ -11985,6 +12004,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 196.8,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1012,
@@ -12723,6 +12743,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 401.56,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 2001,
@@ -13266,6 +13287,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 206.76,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1014582,
@@ -13908,6 +13930,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 219.68,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10020444,
@@ -14422,6 +14445,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 226.2,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 5096,
@@ -15296,6 +15320,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 238.87,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 18337,
@@ -16245,6 +16270,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 239.38,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10023572,
@@ -16864,6 +16890,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 360.46,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11353,
@@ -17457,6 +17484,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 57.52,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11482,
@@ -17788,6 +17816,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 222.19,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1002030,
@@ -18436,6 +18465,7 @@ const indiandata = [
         license: "CC BY 2.5 CA",
         sourceName: "Food and Spice",
         pricePerServing: 524.19,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 99017,
@@ -19015,6 +19045,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 408.67,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 11482,
@@ -20125,6 +20156,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 192.82,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 99009,
@@ -20727,6 +20759,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 216.25,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1014582,
@@ -21378,6 +21411,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 40.73,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 14412,
@@ -21956,6 +21990,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 1641.57,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 15015,
@@ -22596,6 +22631,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 390.82,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1009016,
@@ -23034,6 +23070,7 @@ const indiandata = [
         license: "CC BY 3.0",
         sourceName: "Foodista",
         pricePerServing: 276.56,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 2031,
@@ -23575,6 +23612,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 105.89,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 1014582,
@@ -24062,6 +24100,7 @@ const indiandata = [
         creditsText: "foodista.com",
         sourceName: "foodista.com",
         pricePerServing: 144.86,
+        combinedIngredients: "",
         extendedIngredients: [
           {
             id: 10293663,
