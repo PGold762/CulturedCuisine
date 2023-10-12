@@ -79,4 +79,37 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+// Path for region // cusines 
+router.get("/cuisines/:cuisine", (req, res) => {
+  try {
+    Recipe.findAll({
+      where: {
+        cuisines: req.params.cuisine,
+      },
+    });
+    res.render("cuisinepage", {
+      
+      //   recipes,
+      //   logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
+// Path for individual recipe
+router.get("/recipe/:id", (req, res) => {
+  try {
+    res.render("id", {
+      
+      //   recipes,
+      //   logged_in: req.session.logged_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
 module.exports = router;
