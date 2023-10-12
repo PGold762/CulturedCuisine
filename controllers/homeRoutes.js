@@ -8,8 +8,12 @@ router.get('/', async (req, res) => {
     const recipeData = await Recipe.findAll({
       include: [
         {
-          model: User,
+          model: User, 
           attributes: ['name'],
+        },
+        {
+          model: Recipe, 
+          attributes: ['recipe'],
         },
       ],
     });
