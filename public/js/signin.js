@@ -1,11 +1,9 @@
-const { create } = require("domain");
-
 const signinFormHandler = async (event) => {
   event.preventDefault();
 
-  // Collect values from the login form
-  const email = document.querySelector('#email-login').value.trim();
-  const password = document.querySelector('#password-login').value.trim();
+  // Collect values from the sign in form
+  const email = document.querySelector('#sign-in-email').value.trim();
+  const password = document.querySelector('#sign-in-password').value.trim();
 
   if (email && password) {
     // Send a POST request to the API endpoint
@@ -24,33 +22,8 @@ const signinFormHandler = async (event) => {
   }
 };
 
-const signupFormHandler = async (event) => {
-  event.preventDefault();
+const signinButton = document.querySelector('#sign-in-button');
+const signinForm = document.querySelector('.sign-in-form');
 
-  const name = document.querySelector('#name-signup').value.trim();
-  const email = document.querySelector('#email-signup').value.trim();
-  const password = document.querySelector('#password-signup').value.trim();
-  const createButton = document.querySelector('#create-button').value;
-
-  if (name && email && password) {
-    const response = await fetch('/api/users', {
-      method: 'POST',
-      body: JSON.stringify({ name, email, password }),
-      headers: { 'Content-Type': 'application/json' },
-    });
-
-    if (response.ok) {
-      document.location.replace('/profile');
-    } else {
-      alert(response.statusText);
-    }
-  }
-};
-
-document
-  .querySelector('.signin-form')
-  .addEventListener('submit', signinFormHandler);
-
-document
-  .querySelector('.signup-form')
-  .addEventListener('click', createButton);
+signinButton.addEventListener('click', signinFormHandler);
+signinForm.addEventListener('submit', signinFormHandler);

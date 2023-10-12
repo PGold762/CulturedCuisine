@@ -95,20 +95,20 @@
                     >Mexican</a></li>
                 </ul>
               </li>
-              {{#if logged_in}}
+              {{#if signed_in}}
                 <li><a
-                    id="logout"
+                    id="signup"
                     class="nav-link"
                     href="#"
                     style="color: white;"
-                  >Log Out</a></li>
+                  >Sign up</a></li>
               {{else}}
                 <li class="nav-item">
                   <a
                     class="nav-link"
                     href="/signin"
                     style="color: white;"
-                  >Login</a>
+                  >Sign in</a>
                 </li>
               {{/if}}
             </ul>
@@ -131,8 +131,8 @@
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       ></script>
     </main>
-    {{#if logged_in}}
-      <script src="/js/logout.js"></script>
+    {{#if signed_in}}
+      <script src="/js/signup.js"></script>
     {{/if}}
   </body>
 
