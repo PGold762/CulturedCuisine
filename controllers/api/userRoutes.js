@@ -48,7 +48,7 @@ router.post('/signin', async (req, res) => {
   }
 });
 
-router.post('/signup', (req, res) => {
+router.post('/signout', (req, res) => {
   if (req.session.signed_in) {
     req.session.destroy(() => {
       res.status(204).end();
@@ -56,6 +56,10 @@ router.post('/signup', (req, res) => {
   } else {
     res.status(404).end();
   }
+});
+
+router.get('/signup', (req, res) => {
+  res.render('signup');
 });
 
 module.exports = router;
