@@ -7,7 +7,6 @@
     align-items: center;
     border: outset;
     border-radius: 30px;
-    font-family: "Young Serif";
 }
 
 h1 {
@@ -35,7 +34,6 @@ h1 {
     color: #fff;
     background-color: #1859c9;
     cursor: pointer;
-    font-family: "Young Serif";
 }
 
 #create-button {
@@ -48,7 +46,6 @@ h1 {
     font-size: 17px;
     font-weight: 600;
     cursor: pointer;
-    font-family: "Young Serif";
 }
 
 #create-button,
@@ -71,11 +68,9 @@ input {
 }
 
 input::placeholder {
-    font-family: "Young Serif";
 }
 
 a {
-    font-family: "Young Serif";
     text-decoration: none;
 }
 
@@ -83,7 +78,6 @@ a {
 #first-name,
 #last-name,
 #sign-up-email {
-    font-family: "Young Serif";
 }
 
 .create-account h1 {
