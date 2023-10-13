@@ -67,17 +67,8 @@ input {
     font-size: 18px;
 }
 
-input::placeholder {
-}
-
 a {
     text-decoration: none;
-}
-
-#sign-in-email,
-#first-name,
-#last-name,
-#sign-up-email {
 }
 
 .create-account h1 {

@@ -67,3 +67,5 @@ Screenshot of website:
 * Phillip - Tutor session with Meg Meyers
 
 * Received help from John (Teacher) on items with setting up the database
+
+* Mariam - AskBCS

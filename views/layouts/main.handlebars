@@ -33,7 +33,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
 
   <body>
@@ -97,20 +97,20 @@
                     >Mexican</a></li>
                 </ul>
               </li>
-              {{#if logged_in}}
+              {{#if signed_in}}
                 <li><a
-                    id="logout"
+                    id="signout"
                     class="nav-link"
                     href="#"
                     style="color: white;"
-                  >Log Out</a></li>
+                  >Sign Out</a></li>
               {{else}}
                 <li class="nav-item">
                   <a
                     class="nav-link"
-                    href="/login"
+                    href="/signin"
                     style="color: white;"
-                  >Login</a>
+                  >Sign in</a>
                 </li>
               {{/if}}
             </ul>
@@ -134,7 +134,7 @@
       ></script>
     </main>
     {{#if signed_in}}
-      <script src="/js/logout.js"></script>
+      <script src="/js/signout.js"></script>
     {{/if}}
   </body>
 
