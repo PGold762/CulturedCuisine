@@ -109,7 +109,7 @@ router.get("/cuisines/:cuisine", async (req, res) => {
     console.log(recipes);
     res.render("cuisinepage", {
       recipes,
-      //   logged_in: req.session.logged_in
+      //   signed_in: req.session.signed_in
     });
   } catch (err) {
     res.status(500).json(err);
@@ -121,7 +121,7 @@ router.get("/recipe/:id", (req, res) => {
   try {
     res.render("id", {
       //   recipes,
-      //   logged_in: req.session.logged_in
+      //   signed_in: req.session.signed_in
     });
   } catch (err) {
     res.status(500).json(err);

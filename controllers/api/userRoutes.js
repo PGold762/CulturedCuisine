@@ -48,7 +48,7 @@ router.post('/signin', async (req, res) => {
   }
 });
 
-router.post('/logout', (req, res) => {
+router.post('/signout', (req, res) => {
   if (req.session.signed_in) {
     req.session.destroy(() => {
       res.status(204).end();
