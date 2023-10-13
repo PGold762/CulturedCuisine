@@ -83,17 +83,33 @@ router.get("/signup", (req, res) => {
   res.render("signup");
 });
 
-// Path for region // cusines
-router.get("/cuisines/:cuisine", withAuth, (req, res) => {
+
+// Path for individual recipe
+router.get("/recipe/:id", (req, res) => {
   try {
-    Recipe.findAll({
-      where: {
-        cuisines: req.params.cuisine,
-      },
-    });
-    res.render("cuisinepage", {
+    res.render("id", {
       //   recipes,
       //   signed_in: req.session.signed_in
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+// Path for region // cusines
+router.get("/cuisines/:cuisine", async (req, res) => {
+  try {
+    let recipeData = await Recipe.findAll({
+      where: {
+        title: req.params.cuisine,
+      },
+    });
+    const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
+    console.log("Hello John")
+    console.log(recipes);
+    res.render("cuisinepage", {
+      recipes,
+      //   logged_in: req.session.logged_in
     });
   } catch (err) {
     res.status(500).json(err);
@@ -105,7 +121,7 @@ router.get("/recipe/:id", (req, res) => {
   try {
     res.render("id", {
       //   recipes,
-      //   signed_in: req.session.signed_in
+      //   logged_in: req.session.logged_in
     });
   } catch (err) {
     res.status(500).json(err);
