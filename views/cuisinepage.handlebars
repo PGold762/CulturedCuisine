@@ -13,10 +13,47 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
+<body>
+
+<!-- Regional (cuisines) pages -->
+
+</body>
 
         <!-- Regional (cuisines) pages -->
-        <div id="cuisinepage">
-            <h1>Welcome to Cultured Cuisines</h1>
+        <div id="otherCuisines" class="col-12 col-md-12 col-lg-9">
+    <div class="oc-heading"><h2 class="explore-heading">Explore More Cuisines</h2></div>
+    <div class="cuisine-container" id="cuisine-container">
+        
+        <!-- Cards will be dynamically generated here -->
+
+        
+      {{#each recipes as |recipe|}}
+        <div class="cuisine">
+          <a href="{{recipe.link}}">
+            <img src="{{recipe.imageUrl}}" alt="{{recipe.name}}">
+          </a>
+          <div class="cuisine-info">
+            // remove cultureTradition and add photo and name of cuisine
+            <p>{{recipe.cultureTradition}}</p>
+          </div>
+        </div>
+      {{/each}};
+
+
+    {{!-- function nextQuestion() {
+  mainText.textContent = questions[index].question;
+  // answerButtons.textContent= questions[index].choices[0];
+  for (let i = 0; i < 4; i++) {
+    var button = document.createElement("button");
+    button.textContent = questions[index].choices[i];
+    answerButtons.append(button);
+    button.addEventListener("click", () => {
+      index++;
+      answerButtons.innerHTML = "";
+
+      nextQuestion();
+    });
+  } --}}
             
       <script src="/js/script.js"></script>
       <script src="https://unpkg.com/@splidejs/splide@2.4.12/dist/js/splide.min.js"></script>
