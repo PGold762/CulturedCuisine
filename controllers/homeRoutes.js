@@ -84,7 +84,7 @@ router.get("/signup", (req, res) => {
 });
 
 // Path for region // cusines
-router.get("/cuisines/:cuisine", (req, res) => {
+router.get("/cuisines/:cuisine", withAuth, (req, res) => {
   try {
     Recipe.findAll({
       where: {
