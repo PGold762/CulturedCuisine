@@ -106543,12 +106543,12 @@ const americandata = [
   },
 ];
 
-// for (const category of americandata) {
-//   for (const recipe of category.recipes) {
-//     recipe.cultureFood = category.cultureFood;
-//     recipe.cultureTradition = category.cultureTradition;
-//   }
-// }
+for (const category of americandata) {
+  for (const recipe of category.recipes) {
+    recipe.cultureFood = category.cultureFood;
+    recipe.cultureTradition = category.cultureTradition;
+  }
+}
 
 // // Iterate over each recipe for Ingredients
 // for (const recipe of americandata[0].recipes) {
@@ -106563,6 +106563,45 @@ const americandata = [
 //   // Join the combinedIngredients array into a single string
 //   recipe.combinedIngredients = combinedIngredients.join(", ");
 // }
+
+// Store combined data here
+const recipes = [];
+
+recipeData.forEach((recipe) => {
+  const {
+    servings,
+    readyInMinutes,
+    sourceUrl,
+    image,
+    summary,
+    cuisines,
+    extendedIngredients,
+  } = recipe;
+
+  // Extract the nameClean property from each extended ingredient
+  const ingredientNames = extendedIngredients.map(
+    (ingredient) => ingredient.nameClean
+  );
+
+  // Find the corresponding American data
+  const americanCulture = americandata[0];
+
+  // Combine the recipe and culture data
+  const combinedData = {
+    servings,
+    readyInMinutes,
+    sourceUrl,
+    image,
+    summary,
+    cuisines,
+    extendedIngredients: ingredientNames,
+    title: americanCulture.title,
+    cultureFood: americanCulture.cultureFood,
+    cultureTradition: americanCulture.cultureTradition,
+  };
+
+  recipes.push(combinedData);
+});
 
 const seedAmerican = () => Recipe.bulkCreate(recipeData);
 
