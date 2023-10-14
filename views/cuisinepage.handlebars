@@ -35,11 +35,11 @@
       {{#each recipes as |recipe|}}
       <div class="cuisine">
         <a href="{{recipe.link}}">
-          <img src="{{recipe.imageUrl}}" alt="{{recipe.name}}">
+          {{!-- <img src="{{recipe.imageUrl}}" alt="{{recipe.name}}"> --}}
         </a>
         <div class="cuisine-info">
-          // remove cultureTradition and add photo and name of cuisine
-          <p>{{recipe.cultureTradition}}</p>
+          <h2>{{recipe.title}}</h1>
+          <img src="{{recipe.image}}" alt="{{recipe.summary}}">
         </div>
       </div>
       {{/each}};
