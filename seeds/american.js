@@ -1,6 +1,5 @@
 const { Recipe } = require("../models");
-const recipeData = 
- [
+const recipeData = [
   {
     vegetarian: false,
     vegan: false,
@@ -17,8 +16,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 54,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 496.7,
@@ -364,10 +362,7 @@ const recipeData =
           "serrano pepper, thinly sliced (seeds discarded if you don't like it spicy)",
         amount: 1.0,
         unit: "",
-        meta: [
-          "thinly sliced",
-          "(seeds discarded if you don't like it spicy)",
-        ],
+        meta: ["thinly sliced", "(seeds discarded if you don't like it spicy)"],
         measures: {
           us: {
             amount: 1.0,
@@ -653,8 +648,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 34.34,
@@ -1460,8 +1454,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 10,
     healthScore: 1,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 138.65,
@@ -1899,8 +1892,7 @@ const recipeData =
         consistency: "SOLID",
         name: "sugar",
         nameClean: "sugar",
-        original:
-          "2/3 cup sugar (add another 1/3 cup if you like it sweet)",
+        original: "2/3 cup sugar (add another 1/3 cup if you like it sweet)",
         originalName: "sugar (add another 1/3 cup if you like it sweet)",
         amount: 0.6666667,
         unit: "cup",
@@ -2178,8 +2170,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 46,
     healthScore: 1,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 38.88,
@@ -2340,8 +2331,7 @@ const recipeData =
     title: "Smoky Deviled Eggs",
     readyInMinutes: 45,
     servings: 12,
-    sourceUrl:
-      "http://www.foodista.com/recipe/SPRVKSWX/smokey-deviled-eggs",
+    sourceUrl: "http://www.foodista.com/recipe/SPRVKSWX/smokey-deviled-eggs",
     image: "https://spoonacular.com/recipeImages/660404-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -2355,12 +2345,7 @@ const recipeData =
       "antipasto",
       "hor d'oeuvre",
     ],
-    diets: [
-      "gluten free",
-      "dairy free",
-      "lacto ovo vegetarian",
-      "whole 30",
-    ],
+    diets: ["gluten free", "dairy free", "lacto ovo vegetarian", "whole 30"],
     occasions: [],
     instructions:
       "<ol><li>Boil eggs until fully cooked. Drain in cool water; set aside until fully cooled.</li><li>Cut eggs in half and remove the yolks.</li><li>Mash yolks with a fork, then add the rest of the ingredients. The mixture should be slightly moist.</li><li>Spoon about 1-2 tablespoons of the filling into the egg whites or use a pastry bag to pipe the filling into the whites.</li><li>Sprinkle with paprika, if desired. Cover and chill for at least one hour.</li></ol>",
@@ -2447,8 +2432,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/smoky-deviled-eggs-660404",
+    spoonacularSourceUrl: "https://spoonacular.com/smoky-deviled-eggs-660404",
   },
   {
     vegetarian: false,
@@ -2466,8 +2450,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 24,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 250.84,
@@ -3001,8 +2984,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 42,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 58.59,
@@ -3975,8 +3957,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 143,
     healthScore: 2,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 136.13,
@@ -5577,8 +5558,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 4,
     healthScore: 18,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 54.5,
@@ -5858,8 +5838,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 5,
     healthScore: 8,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 159.74,
@@ -6371,8 +6350,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 26,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 319.27,
@@ -7759,8 +7737,7 @@ const recipeData =
         consistency: "SOLID",
         name: "pickapeppa sauce",
         nameClean: "hp sauce",
-        original:
-          "1 bottle Pickapeppa Sauce (available at most supermarkets)",
+        original: "1 bottle Pickapeppa Sauce (available at most supermarkets)",
         originalName: "Pickapeppa Sauce (available at most supermarkets)",
         amount: 1.0,
         unit: "bottle",
@@ -7935,8 +7912,7 @@ const recipeData =
     title: "Game Day Jerk Wings",
     readyInMinutes: 45,
     servings: 10,
-    sourceUrl:
-      "https://www.foodista.com/recipe/HZFC3WHJ/game-day-jerk-wings",
+    sourceUrl: "https://www.foodista.com/recipe/HZFC3WHJ/game-day-jerk-wings",
     image: "https://spoonacular.com/recipeImages/644149-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -8165,8 +8141,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/game-day-jerk-wings-644149",
+    spoonacularSourceUrl: "https://spoonacular.com/game-day-jerk-wings-644149",
   },
   {
     vegetarian: false,
@@ -8699,8 +8674,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 1,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 55.0,
@@ -9138,8 +9112,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 33,
     healthScore: 14,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 290.09,
@@ -10077,8 +10050,7 @@ const recipeData =
     title: "BBQ Mac and Cheese",
     readyInMinutes: 45,
     servings: 4,
-    sourceUrl:
-      "https://www.foodista.com/recipe/FNMKDX42/bbq-mac-and-cheese",
+    sourceUrl: "https://www.foodista.com/recipe/FNMKDX42/bbq-mac-and-cheese",
     image: "https://spoonacular.com/recipeImages/634496-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -10329,8 +10301,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/bbq-mac-and-cheese-634496",
+    spoonacularSourceUrl: "https://spoonacular.com/bbq-mac-and-cheese-634496",
   },
   {
     vegetarian: true,
@@ -10348,8 +10319,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 46,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 637.85,
@@ -10809,8 +10779,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 24,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 103.13,
@@ -11423,8 +11392,7 @@ const recipeData =
     title: "Healthy Mint Brownies",
     readyInMinutes: 45,
     servings: 12,
-    sourceUrl:
-      "http://www.foodista.com/recipe/JTC6D6KV/healthy-mint-brownies",
+    sourceUrl: "http://www.foodista.com/recipe/JTC6D6KV/healthy-mint-brownies",
     summary:
       'You can never have too many dessert recipes, so give Healthy Mint Brownies a try. This recipe serves 12. For <b>$1.03 per serving</b>, this recipe <b>covers 9%</b> of your daily requirements of vitamins and minerals. One serving contains <b>265 calories</b>, <b>5g of protein</b>, and <b>12g of fat</b>. This recipe from Foodista requires oil, pink salt, coconut sugar, and baking powder. A few people really liked this American dish. 24 people have made this recipe and would make it again. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. With a spoonacular <b>score of 39%</b>, this dish is not so tremendous. If you like this recipe, take a look at these similar recipes: <a href="https://spoonacular.com/recipes/mint-brownies-977907">Mint Brownies</a>, <a href="https://spoonacular.com/recipes/mint-brownies-1572749">Mint Brownies</a>, and <a href="https://spoonacular.com/recipes/mint-brownies-505791">Mint Brownies</a>.',
     cuisines: ["American"],
@@ -11844,8 +11812,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 1,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 125.13,
@@ -12165,8 +12132,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 4,
     healthScore: 33,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 756.21,
@@ -12572,8 +12538,7 @@ const recipeData =
         consistency: "SOLID",
         name: "basil",
         nameClean: "fresh basil",
-        original:
-          "1 tablespoon Fresh Basil, Chopped (about 5 leaves worth)",
+        original: "1 tablespoon Fresh Basil, Chopped (about 5 leaves worth)",
         originalName: "Fresh Basil, Chopped (about 5 leaves worth)",
         amount: 1.0,
         unit: "tablespoon",
@@ -12598,8 +12563,7 @@ const recipeData =
         consistency: "SOLID",
         name: "basil",
         nameClean: "fresh basil",
-        original:
-          "1 tablespoon Fresh Basil, Chopped (about 5 leaves worth)",
+        original: "1 tablespoon Fresh Basil, Chopped (about 5 leaves worth)",
         originalName: "Fresh Basil, Chopped (about 5 leaves worth)",
         amount: 1.0,
         unit: "tablespoon",
@@ -13041,8 +13005,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 9,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 53.58,
@@ -13764,8 +13727,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 22,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 46.37,
@@ -14091,8 +14053,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 97,
     healthScore: 4,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 108.81,
@@ -14328,8 +14289,7 @@ const recipeData =
     title: "Deviled Eggs With Crab",
     readyInMinutes: 45,
     servings: 6,
-    sourceUrl:
-      "http://www.foodista.com/recipe/SG5QX2ZK/deviled-eggs-with-crab",
+    sourceUrl: "http://www.foodista.com/recipe/SG5QX2ZK/deviled-eggs-with-crab",
     image: "https://spoonacular.com/recipeImages/641461-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -14491,8 +14451,7 @@ const recipeData =
         consistency: "SOLID",
         name: "red/orange/green bell pepper- shopping list",
         nameClean: "red pepper",
-        original:
-          "1 red/orange/green bell pepper- finely diced shopping list",
+        original: "1 red/orange/green bell pepper- finely diced shopping list",
         originalName:
           "red/orange/green bell pepper- finely diced shopping list",
         amount: 1.0,
@@ -14921,8 +14880,7 @@ const recipeData =
         name: "red/white onion",
         nameClean: "white onion",
         original: "1 red/white onion- cut into thick slices shopping list",
-        originalName:
-          "red/white onion- cut into thick slices shopping list",
+        originalName: "red/white onion- cut into thick slices shopping list",
         amount: 1.0,
         unit: "",
         meta: ["thick", "cut into  slices shopping list"],
@@ -14946,10 +14904,8 @@ const recipeData =
         consistency: "SOLID",
         name: "beefsteak tomatoes",
         nameClean: "beefsteak tomato",
-        original:
-          "2 beefsteak tomatoes- cut into thick slices shopping list",
-        originalName:
-          "beefsteak tomatoes- cut into thick slices shopping list",
+        original: "2 beefsteak tomatoes- cut into thick slices shopping list",
+        originalName: "beefsteak tomatoes- cut into thick slices shopping list",
         amount: 2.0,
         unit: "",
         meta: ["thick", "cut into  slices shopping list"],
@@ -15050,8 +15006,7 @@ const recipeData =
     title: "Masala-Tofu Burger",
     readyInMinutes: 45,
     servings: 4,
-    sourceUrl:
-      "https://www.foodista.com/recipe/DGH6HX5S/masala-tofu-burger",
+    sourceUrl: "https://www.foodista.com/recipe/DGH6HX5S/masala-tofu-burger",
     image: "https://spoonacular.com/recipeImages/651190-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -15460,8 +15415,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/masala-tofu-burger-651190",
+    spoonacularSourceUrl: "https://spoonacular.com/masala-tofu-burger-651190",
   },
   {
     vegetarian: true,
@@ -15479,8 +15433,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 23,
     healthScore: 2,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 16.03,
@@ -15785,8 +15738,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/buffalo-wing-hummus-636422",
+    spoonacularSourceUrl: "https://spoonacular.com/buffalo-wing-hummus-636422",
   },
   {
     vegetarian: true,
@@ -15804,8 +15756,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 5,
     healthScore: 10,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 104.74,
@@ -16129,8 +16080,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/apple-pie-smoothie-632575",
+    spoonacularSourceUrl: "https://spoonacular.com/apple-pie-smoothie-632575",
   },
   {
     vegetarian: false,
@@ -16447,8 +16397,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 7,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 83.29,
@@ -16784,8 +16733,7 @@ const recipeData =
     title: "Baby Chick Cupcakes",
     readyInMinutes: 45,
     servings: 12,
-    sourceUrl:
-      "https://www.foodista.com/recipe/MBXDGLS5/baby-chick-cupcakes",
+    sourceUrl: "https://www.foodista.com/recipe/MBXDGLS5/baby-chick-cupcakes",
     image: "https://spoonacular.com/recipeImages/633229-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -17079,8 +17027,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/baby-chick-cupcakes-633229",
+    spoonacularSourceUrl: "https://spoonacular.com/baby-chick-cupcakes-633229",
   },
   {
     vegetarian: false,
@@ -17098,8 +17045,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 88.16,
@@ -17312,10 +17258,8 @@ const recipeData =
         consistency: "SOLID",
         name: "food coloring",
         nameClean: "red food color",
-        original:
-          "2 oz. red food coloring (two bottles) or 4 oz beet juice (",
-        originalName:
-          "red food coloring (two bottles) or 4 oz beet juice (",
+        original: "2 oz. red food coloring (two bottles) or 4 oz beet juice (",
+        originalName: "red food coloring (two bottles) or 4 oz beet juice (",
         amount: 2.0,
         unit: "oz",
         meta: ["red", "(two bottles)"],
@@ -17818,8 +17762,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/red-velvet-cupcake-658108",
+    spoonacularSourceUrl: "https://spoonacular.com/red-velvet-cupcake-658108",
   },
   {
     vegetarian: true,
@@ -17837,8 +17780,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 88,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 701.72,
@@ -18309,8 +18251,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 24,
     healthScore: 2,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 45.18,
@@ -18928,8 +18869,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 9,
     healthScore: 10,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 67.07,
@@ -19458,8 +19398,7 @@ const recipeData =
         consistency: "SOLID",
         name: "butter",
         nameClean: "unsalted butter",
-        original:
-          "8 tablespoons (1 stick) unsalted butter, plus more for dish",
+        original: "8 tablespoons (1 stick) unsalted butter, plus more for dish",
         originalName: "(1 stick) unsalted butter, plus more for dish",
         amount: 8.0,
         unit: "tablespoons",
@@ -19534,8 +19473,7 @@ const recipeData =
         consistency: "SOLID",
         name: "cheddar cheese",
         nameClean: "white cheddar cheese",
-        original:
-          "4 1/2 cups (about 18 ounces) grated white cheddar cheese",
+        original: "4 1/2 cups (about 18 ounces) grated white cheddar cheese",
         originalName: "1/2 cups (about grated white cheddar cheese",
         amount: 18.0,
         unit: "ounces",
@@ -20047,8 +19985,7 @@ const recipeData =
     title: "Green Chili Cheddar Dip (Guest Post)",
     readyInMinutes: 45,
     servings: 2,
-    sourceUrl:
-      "http://www.pinkwhen.com/green-chili-cheddar-dip-guest-post/",
+    sourceUrl: "http://www.pinkwhen.com/green-chili-cheddar-dip-guest-post/",
     image: "https://spoonacular.com/recipeImages/715602-556x370.png",
     imageType: "png",
     summary:
@@ -20212,8 +20149,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 29,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 50.6,
@@ -20636,8 +20572,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 12.34,
@@ -20700,8 +20635,7 @@ const recipeData =
         consistency: "SOLID",
         name: "butter",
         nameClean: "unsalted butter",
-        original:
-          "8 tablespoons (1 stick) unsalted butter, cut into quarters",
+        original: "8 tablespoons (1 stick) unsalted butter, cut into quarters",
         originalName: "(1 stick) unsalted butter, cut into quarters",
         amount: 8.0,
         unit: "tablespoons",
@@ -21130,8 +21064,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 30.24,
@@ -21464,8 +21397,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 5,
     healthScore: 4,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 148.92,
@@ -21478,8 +21410,7 @@ const recipeData =
         consistency: "SOLID",
         name: "earth balance soy free spread",
         nameClean: "soy buttery spread",
-        original:
-          "7 ounces Earth Balance Soy Free Spread, melted and cooled",
+        original: "7 ounces Earth Balance Soy Free Spread, melted and cooled",
         originalName: "Earth Balance Soy Free Spread, melted and cooled",
         amount: 7.0,
         unit: "ounces",
@@ -22000,8 +21931,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 40,
     healthScore: 14,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 87.89,
@@ -22505,8 +22435,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 10,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 110.76,
@@ -22673,8 +22602,7 @@ const recipeData =
         nameClean: "sugar",
         original:
           "1/2 cup sugar (add another 1/4 to 1/2 cup if you like it sweet)",
-        originalName:
-          "sugar (add another 1/4 to 1/2 cup if you like it sweet)",
+        originalName: "sugar (add another 1/4 to 1/2 cup if you like it sweet)",
         amount: 0.5,
         unit: "cup",
         meta: ["sweet"],
@@ -23011,8 +22939,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/brownie-cheesecake-636325",
+    spoonacularSourceUrl: "https://spoonacular.com/brownie-cheesecake-636325",
   },
   {
     vegetarian: false,
@@ -23864,8 +23791,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 1,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 39.51,
@@ -24101,8 +24027,7 @@ const recipeData =
     title: "Mint Oreo Brownies",
     readyInMinutes: 45,
     servings: 25,
-    sourceUrl:
-      "https://www.foodista.com/recipe/RNCK4LWH/mint-oreo-brownies",
+    sourceUrl: "https://www.foodista.com/recipe/RNCK4LWH/mint-oreo-brownies",
     image: "https://spoonacular.com/recipeImages/652017-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -24349,8 +24274,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/mint-oreo-brownies-652017",
+    spoonacularSourceUrl: "https://spoonacular.com/mint-oreo-brownies-652017",
   },
   {
     vegetarian: false,
@@ -25420,8 +25344,7 @@ const recipeData =
     title: "Hawaiian Chicken Chili",
     readyInMinutes: 45,
     servings: 8,
-    sourceUrl:
-      "http://www.foodista.com/recipe/Z7C777S3/hawaiian-chicken-chili",
+    sourceUrl: "http://www.foodista.com/recipe/Z7C777S3/hawaiian-chicken-chili",
     image: "https://spoonacular.com/recipeImages/646358-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -25814,8 +25737,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 169.31,
@@ -26233,8 +26155,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 17,
     healthScore: 17,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 139.54,
@@ -26520,8 +26441,7 @@ const recipeData =
     title: "Pumpkin French Toast",
     readyInMinutes: 20,
     servings: 4,
-    sourceUrl:
-      "http://www.foodista.com/recipe/7GBXXW87/pumpkin-french-toast",
+    sourceUrl: "http://www.foodista.com/recipe/7GBXXW87/pumpkin-french-toast",
     image: "https://spoonacular.com/recipeImages/657306-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -26631,8 +26551,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/pumpkin-french-toast-657306",
+    spoonacularSourceUrl: "https://spoonacular.com/pumpkin-french-toast-657306",
   },
   {
     vegetarian: false,
@@ -26650,8 +26569,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 57,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 39.71,
@@ -26845,10 +26763,7 @@ const recipeData =
           "semi sweet chocolate chips (1 cup if you don't want to stuff the brownie bites)",
         amount: 0.5,
         unit: "cup",
-        meta: [
-          "sweet",
-          "(1 cup if you don't want to stuff the brownie bites)",
-        ],
+        meta: ["sweet", "(1 cup if you don't want to stuff the brownie bites)"],
         measures: {
           us: {
             amount: 0.5,
@@ -27111,8 +27026,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 15,
     healthScore: 1,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 105.84,
@@ -27152,8 +27066,7 @@ const recipeData =
         nameClean: "sugar",
         original:
           "1/2 cup sugar (add another 1/4 to 1/2 cup if you like it sweet)",
-        originalName:
-          "sugar (add another 1/4 to 1/2 cup if you like it sweet)",
+        originalName: "sugar (add another 1/4 to 1/2 cup if you like it sweet)",
         amount: 0.5,
         unit: "cup",
         meta: ["sweet"],
@@ -27556,8 +27469,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 27,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 212.84,
@@ -27620,8 +27532,7 @@ const recipeData =
         consistency: "SOLID",
         name: "bok choy",
         nameClean: "bok choy",
-        original:
-          "4 large stalks bok choy, chopped (stalk and leaf divided)",
+        original: "4 large stalks bok choy, chopped (stalk and leaf divided)",
         originalName: "bok choy, chopped (stalk and leaf divided)",
         amount: 4.0,
         unit: "large stalks",
@@ -27994,8 +27905,7 @@ const recipeData =
     title: "Chili-Garlic Stir Fry",
     readyInMinutes: 45,
     servings: 6,
-    sourceUrl:
-      "https://www.foodista.com/recipe/7B6SJL27/chili-garlic-stir-fry",
+    sourceUrl: "https://www.foodista.com/recipe/7B6SJL27/chili-garlic-stir-fry",
     image: "https://spoonacular.com/recipeImages/638586-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -28215,8 +28125,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 48.63,
@@ -28454,8 +28363,7 @@ const recipeData =
         consistency: "SOLID",
         name: "sweet potatoes",
         nameClean: "sweet potato",
-        original:
-          "2 pounds sweet potatoes ( 3 cups mashed) (I used 4 large)",
+        original: "2 pounds sweet potatoes ( 3 cups mashed) (I used 4 large)",
         originalName: "pounds sweet potatoes mashed) (I used 4 large)",
         amount: 3.0,
         unit: "cups",
@@ -28503,8 +28411,7 @@ const recipeData =
     title: "Sweet Potato Casserole with Pecan Crumble Topping",
     readyInMinutes: 45,
     servings: 10,
-    sourceUrl:
-      "http://www.foodista.com/recipe/BJ23ZP3F/sweet-potato-casserole",
+    sourceUrl: "http://www.foodista.com/recipe/BJ23ZP3F/sweet-potato-casserole",
     image: "https://spoonacular.com/recipeImages/662560-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -29084,8 +28991,7 @@ const recipeData =
         consistency: "SOLID",
         name: "wedges of laughing cow swiss cheese",
         nameClean: "swiss cheese",
-        original:
-          "2 whole Wedges Of Laughing Cow Swiss Cheese, Sliced In Half",
+        original: "2 whole Wedges Of Laughing Cow Swiss Cheese, Sliced In Half",
         originalName:
           "whole Wedges Of Laughing Cow Swiss Cheese, Sliced In Half",
         amount: 2.0,
@@ -29371,8 +29277,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 6,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 112.46,
@@ -29516,10 +29421,7 @@ const recipeData =
           "eggs (I like to separate and beat whites for a fluffier cake)",
         amount: 2.0,
         unit: "",
-        meta: [
-          "for a fluffier cake",
-          "(I like to separate and beat whites )",
-        ],
+        meta: ["for a fluffier cake", "(I like to separate and beat whites )"],
         measures: {
           us: {
             amount: 2.0,
@@ -29763,8 +29665,7 @@ const recipeData =
     title: "Mardi Gras Cupcakes",
     readyInMinutes: 45,
     servings: 14,
-    sourceUrl:
-      "http://www.foodista.com/recipe/T6ZPS33R/mardi-gras-cupcakes",
+    sourceUrl: "http://www.foodista.com/recipe/T6ZPS33R/mardi-gras-cupcakes",
     image: "https://spoonacular.com/recipeImages/650965-556x370.png",
     imageType: "png",
     summary:
@@ -30028,8 +29929,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/mardi-gras-cupcakes-650965",
+    spoonacularSourceUrl: "https://spoonacular.com/mardi-gras-cupcakes-650965",
   },
   {
     vegetarian: false,
@@ -30047,8 +29947,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 10,
     healthScore: 4,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 121.07,
@@ -30361,8 +30260,7 @@ const recipeData =
     title: "Apple Walnut Brownies",
     readyInMinutes: 75,
     servings: 10,
-    sourceUrl:
-      "http://www.foodista.com/recipe/N6KNP37Q/apple-walnut-brownies",
+    sourceUrl: "http://www.foodista.com/recipe/N6KNP37Q/apple-walnut-brownies",
     image: "https://spoonacular.com/recipeImages/632611-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -30605,8 +30503,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 18,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 288.21,
@@ -31098,8 +30995,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 41,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 259.03,
@@ -31659,8 +31555,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 28,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 81.67,
@@ -32182,8 +32077,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 15,
     healthScore: 2,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 80.14,
@@ -32720,8 +32614,7 @@ const recipeData =
         consistency: "SOLID",
         name: "regular sea salt",
         nameClean: "coarse sea salt",
-        original:
-          "5 tablespoons pink hawaiian sea salt or regular sea salt",
+        original: "5 tablespoons pink hawaiian sea salt or regular sea salt",
         originalName: "pink hawaiian sea salt or regular sea salt",
         amount: 5.0,
         unit: "tablespoons",
@@ -33213,8 +33106,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 8,
     healthScore: 2,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 93.8,
@@ -33877,8 +33769,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 64,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 29.1,
@@ -34243,8 +34134,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/10-minute-brownies-631830",
+    spoonacularSourceUrl: "https://spoonacular.com/10-minute-brownies-631830",
   },
   {
     vegetarian: true,
@@ -34262,8 +34152,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 23,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 20.08,
@@ -34640,8 +34529,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 13,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 143.14,
@@ -35460,8 +35348,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 4,
     healthScore: 49,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 414.68,
@@ -36066,8 +35953,7 @@ const recipeData =
         nameClean: "chili sauce",
         original:
           "1 tsp of hot chili sauce (add or reduce the amount as you like)",
-        originalName:
-          "hot chili sauce (add or reduce the amount as you like)",
+        originalName: "hot chili sauce (add or reduce the amount as you like)",
         amount: 1.0,
         unit: "tsp",
         meta: ["hot", "(add or reduce the amount as you like)"],
@@ -36412,8 +36298,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 424.99,
@@ -36824,8 +36709,7 @@ const recipeData =
     title: "Pinot Noir Brownies",
     readyInMinutes: 45,
     servings: 16,
-    sourceUrl:
-      "https://www.foodista.com/recipe/L5G2TX8B/pinot-noir-brownies",
+    sourceUrl: "https://www.foodista.com/recipe/L5G2TX8B/pinot-noir-brownies",
     image: "https://spoonacular.com/recipeImages/656248-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -37039,8 +36923,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/pinot-noir-brownies-656248",
+    spoonacularSourceUrl: "https://spoonacular.com/pinot-noir-brownies-656248",
   },
   {
     vegetarian: false,
@@ -37654,8 +37537,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 38,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 270.77,
@@ -38266,8 +38148,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 156,
     healthScore: 2,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 52.8,
@@ -38628,8 +38509,7 @@ const recipeData =
     title: "Black Bean Brownies",
     readyInMinutes: 45,
     servings: 12,
-    sourceUrl:
-      "https://www.foodista.com/recipe/BY3TN7TR/black-bean-brownies",
+    sourceUrl: "https://www.foodista.com/recipe/BY3TN7TR/black-bean-brownies",
     image: "https://spoonacular.com/recipeImages/635063-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -38915,8 +38795,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/black-bean-brownies-635063",
+    spoonacularSourceUrl: "https://spoonacular.com/black-bean-brownies-635063",
   },
   {
     vegetarian: true,
@@ -38934,8 +38813,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 7,
     healthScore: 41,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 106.62,
@@ -39383,8 +39261,7 @@ const recipeData =
     title: "Smokey Rainbow Chili",
     readyInMinutes: 45,
     servings: 8,
-    sourceUrl:
-      "https://www.foodista.com/recipe/V62YQQWD/smokey-rainbow-chili",
+    sourceUrl: "https://www.foodista.com/recipe/V62YQQWD/smokey-rainbow-chili",
     image: "https://spoonacular.com/recipeImages/660395-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -39581,8 +39458,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/smokey-rainbow-chili-660395",
+    spoonacularSourceUrl: "https://spoonacular.com/smokey-rainbow-chili-660395",
   },
   {
     vegetarian: false,
@@ -40689,8 +40565,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 21.59,
@@ -41544,8 +41419,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 25,
     healthScore: 6,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 29.91,
@@ -41631,8 +41505,7 @@ const recipeData =
     title: "Square Deviled Eggs",
     readyInMinutes: 45,
     servings: 6,
-    sourceUrl:
-      "https://www.foodista.com/recipe/2Y8X7NKY/square-deviled-eggs",
+    sourceUrl: "https://www.foodista.com/recipe/2Y8X7NKY/square-deviled-eggs",
     image: "https://spoonacular.com/recipeImages/661447-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -41777,8 +41650,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/square-deviled-eggs-661447",
+    spoonacularSourceUrl: "https://spoonacular.com/square-deviled-eggs-661447",
   },
   {
     vegetarian: false,
@@ -41796,8 +41668,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 9,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 157.18,
@@ -42445,8 +42316,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 25,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 174.05,
@@ -43646,8 +43516,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/skillet-chili-mac-660216",
+    spoonacularSourceUrl: "https://spoonacular.com/skillet-chili-mac-660216",
   },
   {
     vegetarian: false,
@@ -44034,13 +43903,7 @@ const recipeData =
       'Ancho Chipotle Chili might be a good recipe to expand your main course recipe box. This gluten free, dairy free, paleolithic, and primal recipe serves 2 and costs <b>$3.78 per serving</b>. One serving contains <b>695 calories</b>, <b>43g of protein</b>, and <b>43g of fat</b>. It is perfect for <b>The Super Bowl</b>. Head to the store and pick up mushrooms, salt and pepper, water, and a few other things to make it today. From preparation to the plate, this recipe takes roughly <b>1 hour and 15 minutes</b>. It is a <b>pretty expensive</b> recipe for fans of American food. It is brought to you by spoonacular user <a href="/profile/coffeebean">coffeebean</a>. If you like this recipe, take a look at these similar recipes: <a href="https://spoonacular.com/recipes/ancho-chipotle-chili-1356921">Ancho Chipotle Chili</a>, <a href="https://spoonacular.com/recipes/ancho-chipotle-chili-1220615">Ancho Chipotle Chili</a>, and <a href="https://spoonacular.com/recipes/chipotle-and-ancho-cocoa-enchilada-sauce-966067">Chipotle and Ancho Cocoan Enchilada Sauce</a>.',
     cuisines: ["American"],
     dishTypes: ["soup", "lunch", "main course", "main dish", "dinner"],
-    diets: [
-      "gluten free",
-      "dairy free",
-      "paleolithic",
-      "primal",
-      "whole 30",
-    ],
+    diets: ["gluten free", "dairy free", "paleolithic", "primal", "whole 30"],
     occasions: ["super bowl"],
     instructions:
       '<p>1. Slice open the dried ancho and chipotle chili and remove the seeds/pith. Place the dried chili peppers in a warm skillet (medium heat) and press them flat with a spatula to toast them for a few seconds per side until fragrant (be careful not to burn them!). Be sure to wear gloves or wash your hands directly after handling the chili peppers.</p><p>2. Remove the dried chili and put them in a bowl or sauce pan. Pour 250 ml boiling water over it and leave it to soak for at least 15 minutes.</p><p>3. In a large pot, saute the chopped bell pepper, onion, and mushrooms over medium heat.</p><p>4. Meanwhile, fry the beef in a hot skillet until crispy.</p><p>5. While the beef is frying, blend the chili peppers you\'ve been soaking with the soaking liquid.</p><p>6. Add the beef to the large pot filled with the sauteed vegetables.</p><p>7. Add the tomato sauce and blended chili peppers to the pot. If it is not enough liquid, add beef or vegetable broth (the other 250 ml water and 5 grams bouillon powder, unless you have "real" broth on hand) until everything is covered.</p><p>8. Season with salt, pepper, cumin, and oregano to taste.</p><p>9. Simmer for about 45 minutes or until thick enough. Serve with fresh cilantro.</p>',
@@ -44365,8 +44228,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/ancho-chipotle-chili-610281",
+    spoonacularSourceUrl: "https://spoonacular.com/ancho-chipotle-chili-610281",
   },
   {
     vegetarian: false,
@@ -44569,8 +44431,7 @@ const recipeData =
     title: "Easy Chicken Wings",
     readyInMinutes: 45,
     servings: 4,
-    sourceUrl:
-      "https://www.foodista.com/recipe/Y4H5VXG4/easy-chicken-wings",
+    sourceUrl: "https://www.foodista.com/recipe/Y4H5VXG4/easy-chicken-wings",
     image: "https://spoonacular.com/recipeImages/641907-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -44750,8 +44611,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/easy-chicken-wings-641907",
+    spoonacularSourceUrl: "https://spoonacular.com/easy-chicken-wings-641907",
   },
   {
     vegetarian: false,
@@ -45239,8 +45099,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/creamy-white-chili-640722",
+    spoonacularSourceUrl: "https://spoonacular.com/creamy-white-chili-640722",
   },
   {
     vegetarian: false,
@@ -45258,8 +45117,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 13,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 186.53,
@@ -45670,8 +45528,7 @@ const recipeData =
     title: "Drunken Turkey Chili",
     readyInMinutes: 45,
     servings: 8,
-    sourceUrl:
-      "https://www.foodista.com/recipe/5KJFZQ7L/drunken-turkey-chili",
+    sourceUrl: "https://www.foodista.com/recipe/5KJFZQ7L/drunken-turkey-chili",
     image: "https://spoonacular.com/recipeImages/641679-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -45929,8 +45786,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/drunken-turkey-chili-641679",
+    spoonacularSourceUrl: "https://spoonacular.com/drunken-turkey-chili-641679",
   },
   {
     vegetarian: true,
@@ -46735,8 +46591,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 8,
     healthScore: 2,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 49.48,
@@ -47808,8 +47663,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/salmon-caesar-salad-646512",
+    spoonacularSourceUrl: "https://spoonacular.com/salmon-caesar-salad-646512",
   },
   {
     vegetarian: false,
@@ -47827,8 +47681,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 7,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 54.16,
@@ -48527,8 +48380,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 7,
     healthScore: 7,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 83.9,
@@ -49248,8 +49100,7 @@ const recipeData =
       },
     ],
     originalId: null,
-    spoonacularSourceUrl:
-      "https://spoonacular.com/pulled-pork-nachos-1039293",
+    spoonacularSourceUrl: "https://spoonacular.com/pulled-pork-nachos-1039293",
   },
   {
     vegetarian: true,
@@ -49267,8 +49118,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 0,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 62.99,
@@ -49948,8 +49798,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 3,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 122.47,
@@ -51311,8 +51160,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 91,
     healthScore: 10,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 41.97,
@@ -51795,8 +51643,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 5,
     healthScore: 7,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 218.68,
@@ -52829,8 +52676,7 @@ const recipeData =
     cookingMinutes: -1,
     aggregateLikes: 5,
     healthScore: 1,
-    creditsText:
-      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 59.22,
@@ -53264,7 +53110,7 @@ const recipeData =
     spoonacularSourceUrl:
       "https://spoonacular.com/cherry-coke-float-cupcakes-with-chocolate-shell-637744",
   },
-]
+];
 
 // American Recipes Data
 const americandata = [
@@ -106535,18 +106381,24 @@ const americandata = [
           "https://spoonacular.com/cherry-coke-float-cupcakes-with-chocolate-shell-637744",
       },
     ],
-    cultureFood:
-      "Join us on a delectable journey across the highways of American food culture. From the soulful comfort of Southern barbecue to the bold and innovative dishes of the West Coast, our cookbook invites you to explore the flavors and stories that define American cuisine. Discover the art of crafting the perfect burger, the secret to finger-licking fried chicken, and the joy of savoring a slice of homemade apple pie. With a bounty of recipes that span coast to coast, we invite you to embrace the melting pot of culinary traditions that have shaped American cooking. Whether you're a lover of classic diner fare, regional specialties, or contemporary fusion cuisine, America has something for everyone. Join us in celebrating the delicious diversity of American food, where each dish is a slice of history and a taste of home.",
+    // cultureFood:
+    //   "Join us on a delectable journey across the highways of American food culture. From the soulful comfort of Southern barbecue to the bold and innovative dishes of the West Coast, our cookbook invites you to explore the flavors and stories that define American cuisine. Discover the art of crafting the perfect burger, the secret to finger-licking fried chicken, and the joy of savoring a slice of homemade apple pie. With a bounty of recipes that span coast to coast, we invite you to embrace the melting pot of culinary traditions that have shaped American cooking. Whether you're a lover of classic diner fare, regional specialties, or contemporary fusion cuisine, America has something for everyone. Join us in celebrating the delicious diversity of American food, where each dish is a slice of history and a taste of home.",
 
-    cultureTradition:
-      "One beloved American mealtime tradition is the Thanksgiving Dinner. Held on the fourth Thursday of November, it's a time for families and friends to gather, give thanks, and share a hearty feast. The centerpiece is a roasted turkey, symbolizing gratitude for the bountiful harvest. Accompanied by an array of side dishes like mashed potatoes, cranberry sauce, and stuffing, this tradition embodies the spirit of unity and appreciation. It's a day when people pause to reflect on their blessings and create lasting memories, emphasizing the importance of gratitude and togetherness in American culture.",
+    // cultureTradition:
+    //   "One beloved American mealtime tradition is the Thanksgiving Dinner. Held on the fourth Thursday of November, it's a time for families and friends to gather, give thanks, and share a hearty feast. The centerpiece is a roasted turkey, symbolizing gratitude for the bountiful harvest. Accompanied by an array of side dishes like mashed potatoes, cranberry sauce, and stuffing, this tradition embodies the spirit of unity and appreciation. It's a day when people pause to reflect on their blessings and create lasting memories, emphasizing the importance of gratitude and togetherness in American culture.",
   },
 ];
 
+const cultureFood =
+  "Join us on a delectable journey across the highways of American food culture. From the soulful comfort of Southern barbecue to the bold and innovative dishes of the West Coast, our cookbook invites you to explore the flavors and stories that define American cuisine. Discover the art of crafting the perfect burger, the secret to finger-licking fried chicken, and the joy of savoring a slice of homemade apple pie. With a bounty of recipes that span coast to coast, we invite you to embrace the melting pot of culinary traditions that have shaped American cooking. Whether you're a lover of classic diner fare, regional specialties, or contemporary fusion cuisine, America has something for everyone. Join us in celebrating the delicious diversity of American food, where each dish is a slice of history and a taste of home.";
+
+const cultureTradition =
+  "One beloved American mealtime tradition is the Thanksgiving Dinner. Held on the fourth Thursday of November, it's a time for families and friends to gather, give thanks, and share a hearty feast. The centerpiece is a roasted turkey, symbolizing gratitude for the bountiful harvest. Accompanied by an array of side dishes like mashed potatoes, cranberry sauce, and stuffing, this tradition embodies the spirit of unity and appreciation. It's a day when people pause to reflect on their blessings and create lasting memories, emphasizing the importance of gratitude and togetherness in American culture.";
+
 for (const category of americandata) {
   for (const recipe of category.recipes) {
-    recipe.cultureFood = category.cultureFood;
-    recipe.cultureTradition = category.cultureTradition;
+    recipe.cultureFood = cultureFood;
+    recipe.cultureTradition = cultureTradition;
   }
 }
 
@@ -106558,7 +106410,7 @@ for (const category of americandata) {
 //   for (const ingredient of recipe.extendedIngredients) {
 //     // Push the "original" field data into the combinedIngredients array
 //     combinedIngredients.push(ingredient.original);
-//   } 
+//   }
 
 //   // Join the combinedIngredients array into a single string
 //   recipe.combinedIngredients = combinedIngredients.join(", ");
@@ -106579,6 +106431,7 @@ recipeData.forEach((recipe) => {
   } = recipe;
 
   // Extract the nameClean property from each extended ingredient
+  // map returns and array arry.join allows you to join all elements of the arry into a string (so if a string is needed ) [ specify what will devide elements once in a string ]
   const ingredientNames = extendedIngredients.map(
     (ingredient) => ingredient.nameClean
   );
@@ -106596,13 +106449,13 @@ recipeData.forEach((recipe) => {
     cuisines,
     extendedIngredients: ingredientNames,
     title: americanCulture.title,
-    cultureFood: americanCulture.cultureFood,
-    cultureTradition: americanCulture.cultureTradition,
+    cultureFood: cultureFood,
+    cultureTradition: cultureTradition,
   };
 
   recipes.push(combinedData);
 });
-
-const seedAmerican = () => Recipe.bulkCreate(recipeData);
+// use recipe rather than recipedata for the bulk create 
+const seedAmerican = () => Recipe.bulkCreate(recipes);
 
 module.exports = seedAmerican;

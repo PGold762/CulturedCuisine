@@ -35,7 +35,7 @@ Recipe.init(
       type: DataTypes.TEXT,
       defaultValue: null,
     },
-    cuisines: {
+    cuisines: {   // Region of the cuisine 
       type: DataTypes.STRING,
       defaultValue: null,
     },
