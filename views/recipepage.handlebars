@@ -17,6 +17,67 @@
 </head>
 
 <body>
+    <div class="recipe-wrapper">
+        <div class="container">
+            <div class="left-side region-section col-12 col-md-12 col-lg-4">
+                <div>
+                    <h1>{{title}}</h1>
+                </div>
+                <div class="content">
+                    <div class="image-container">
+                        <img src="{{image}}" alt="Cuisine Image">
+                    </div>
+                    <div class="cuisine-name">Serving Size: {{servings}}</div>
+                    <div class="cuisine-name">Ready In: {{readInMinutes}}</div>
+                </div>
+            </div>
+            <div class="right-side col-12 col-md-12 col-lg-8">
+                <div class="row">
+                    <h2>Ingredients List:</h2>
+                    {{!-- Needs foreach for Ingredients once DB is ready --}}
+                    <div class="ingredients">
+                        <ul>
+                            <li>
+                                {{combinedIngredients}}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom col-12 col-md-12 col-lg-12">
+            <div class="paragraph-istruc">
+                <h2>Cooking Instructions</h2>
+                <p> {{summary}}</p>
+            </div>
+        </div>
+        <div class="bottom2 col-12 col-md-12 col-lg-12">
+            <div class="paragraph-culture info">
+                <h2>Interesting food factions about this region:</h2>
+                <p> {{cultureFood}} </p>
+            </div>
+        </div>
+        <div class="bottom2 col-12 col-md-12 col-lg-12">
+            <div class="paragraph-culture info">
+                <h2>Interesting facts about the Traditions of this region:</h2>
+                <p> {{cultureTraditions}} </p>
+            </div>
+        </div>
+    </div>
+
+  <script src="/js/script.js"></script>
+  <script src="https://unpkg.com/@splidejs/splide@2.4.12/dist/js/splide.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  {{#if signed_in}}
+  <script src="/js/signout.js"></script>
+  {{/if}}
+</body>
+
+</html>
+
+
   <header class="display-flex justify-space-between align-center p-2">
     <h1>
       Let's get cooking!
@@ -52,14 +113,3 @@
       {{/each}}
     </ul>
   </main>
-  <script src="/js/script.js"></script>
-  <script src="https://unpkg.com/@splidejs/splide@2.4.12/dist/js/splide.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  {{#if signed_in}}
-  <script src="/js/signout.js"></script>
-  {{/if}}
-</body>
-
-</html>
