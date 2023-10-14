@@ -53115,7 +53115,7 @@ const recipeData = [
 // American Recipes Data
 const americandata = [
   {
-    title: "American",
+    Region: "American",
     recipes: [
       {
         vegetarian: false,
@@ -106390,7 +106390,7 @@ const cultureFood =
 const cultureTradition =
   "One beloved American mealtime tradition is the Thanksgiving Dinner. Held on the fourth Thursday of November, it's a time for families and friends to gather, give thanks, and share a hearty feast. The centerpiece is a roasted turkey, symbolizing gratitude for the bountiful harvest. Accompanied by an array of side dishes like mashed potatoes, cranberry sauce, and stuffing, this tradition embodies the spirit of unity and appreciation. It's a day when people pause to reflect on their blessings and create lasting memories, emphasizing the importance of gratitude and togetherness in American culture.";
 
-  // add cultural data to each recipe
+  // add cultural data to each recipe 
 for (const category of americandata) {
   for (const recipe of category.recipes) {
     recipe.cultureFood = cultureFood;
@@ -106417,6 +106417,7 @@ const recipes = [];
 
 recipeData.forEach((recipe) => {
   const {
+    title,
     servings,
     readyInMinutes,
     sourceUrl,
@@ -106444,7 +106445,8 @@ recipeData.forEach((recipe) => {
     summary,
     cuisines,
     extendedIngredients: ingredientNames,
-    title: americanCulture.title,
+    title, 
+    //americanCulture.recipes.title,
     cultureFood: cultureFood,
     cultureTradition: cultureTradition,
   };
