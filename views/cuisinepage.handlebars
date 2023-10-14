@@ -32,17 +32,17 @@
       <!-- Cards will be dynamically generated here -->
 
 
-      {{#each recipes as |recipe|}}
+      {{#each recipes as |Recipe|}}
       <div class="cuisine">
-        <a href="{{recipe.link}}">
+        <a href="{{Recipe.link}}">
           {{!-- <img src="{{recipe.imageUrl}}" alt="{{recipe.name}}"> --}}
         </a>
         <div class="cuisine-info">
-          <h2>{{recipe.title}}</h1>
-          <img src="{{recipe.image}}" alt="{{recipe.summary}}">
+          <h3>{{Recipe.title}}</h3>
+          <img src="{{Recipe.image}}" alt="{{Recipe.title}}">
         </div>
       </div>
-      {{/each}};
+      {{/each}}
 
 
       {{!-- function nextQuestion() {

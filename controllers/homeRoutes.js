@@ -101,7 +101,7 @@ router.get("/cuisines/:cuisine", async (req, res) => {
   try {
     let recipeData = await Recipe.findAll({
       where: {
-        title: req.params.cuisine,
+        cuisines: req.params.cuisine,
       },
     });
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
@@ -129,3 +129,8 @@ router.get("/recipe/:id", (req, res) => {
 });
 
 module.exports = router;
+
+
+
+
+

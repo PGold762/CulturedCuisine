@@ -19,7 +19,7 @@ Recipe.init(
       type: DataTypes.INTEGER,
       defaultValue: null,
     },
-    readInMinutes: {
+    readyInMinutes: {
       type: DataTypes.INTEGER,
       defaultValue: null,
     },
