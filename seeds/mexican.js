@@ -38054,17 +38054,22 @@ const mexicandata = [
         spoonacularSourceUrl: "https://spoonacular.com/corn-salsa-640104",
       },
     ],
-    cultureFood:
-      "Embark on a mouthwatering excursion to the heart of Mexico as our recipes invite you to savor the bold and authentic flavors of this beloved culinary tradition. From the fiery salsas of Oaxaca to the comforting embrace of Yucatecan tamales, we'll unveils the secrets of great Mexican cooking. Discover the art of crafting perfect tacos, the joy of handmade tortillas, and the depth of flavors in traditional mole sauces. With recipes steeped in tradition and our expert guidance, you'll master the techniques and spices that bring the spirit of Mexico to your kitchen. Join us in celebrating the vibrant culture, the warm hospitality, and the rich history that infuse every dish in Mexican cuisine. Whether you're a seasoned cook or a passionate novice, our cookbook is your ticket to a fiesta of flavors, where every bite is a taste of Mexico's soul.",
+    // cultureFood:
+    //   "Embark on a mouthwatering excursion to the heart of Mexico as our recipes invite you to savor the bold and authentic flavors of this beloved culinary tradition. From the fiery salsas of Oaxaca to the comforting embrace of Yucatecan tamales, we'll unveils the secrets of great Mexican cooking. Discover the art of crafting perfect tacos, the joy of handmade tortillas, and the depth of flavors in traditional mole sauces. With recipes steeped in tradition and our expert guidance, you'll master the techniques and spices that bring the spirit of Mexico to your kitchen. Join us in celebrating the vibrant culture, the warm hospitality, and the rich history that infuse every dish in Mexican cuisine. Whether you're a seasoned cook or a passionate novice, our cookbook is your ticket to a fiesta of flavors, where every bite is a taste of Mexico's soul.",
 
-    cultureTradition: `Mexican mealtime traditions are steeped in the warmth of family and culture, with one cherished tradition being the "Molcajete." This volcanic stone mortar and pestle serve not only as a kitchen tool but also as a symbol of unity. Families gather around it, grinding ingredients like chilies, tomatoes, and spices, creating salsas and guacamole. It's a communal activity, reinforcing the importance of shared preparation and the joy of coming together to enjoy flavorful dishes. The molcajete tradition highlights the heart of Mexican cuisine, where food isn't just sustenance but a celebration of heritage and connection.`,
+    // cultureTradition: `Mexican mealtime traditions are steeped in the warmth of family and culture, with one cherished tradition being the "Molcajete." This volcanic stone mortar and pestle serve not only as a kitchen tool but also as a symbol of unity. Families gather around it, grinding ingredients like chilies, tomatoes, and spices, creating salsas and guacamole. It's a communal activity, reinforcing the importance of shared preparation and the joy of coming together to enjoy flavorful dishes. The molcajete tradition highlights the heart of Mexican cuisine, where food isn't just sustenance but a celebration of heritage and connection.`,
   },
 ];
 
+// loop over data and select one at random. Use AI to make prompts 
+ const cultureFood =  "Embark on a mouthwatering excursion to the heart of Mexico as our recipes invite you to savor the bold and authentic flavors of this beloved culinary tradition. From the fiery salsas of Oaxaca to the comforting embrace of Yucatecan tamales, we'll unveils the secrets of great Mexican cooking. Discover the art of crafting perfect tacos, the joy of handmade tortillas, and the depth of flavors in traditional mole sauces. With recipes steeped in tradition and our expert guidance, you'll master the techniques and spices that bring the spirit of Mexico to your kitchen. Join us in celebrating the vibrant culture, the warm hospitality, and the rich history that infuse every dish in Mexican cuisine. Whether you're a seasoned cook or a passionate novice, our cookbook is your ticket to a fiesta of flavors, where every bite is a taste of Mexico's soul.";
+
+const cultureTradition = `Mexican mealtime traditions are steeped in the warmth of family and culture, with one cherished tradition being the "Molcajete." This volcanic stone mortar and pestle serve not only as a kitchen tool but also as a symbol of unity. Families gather around it, grinding ingredients like chilies, tomatoes, and spices, creating salsas and guacamole. It's a communal activity, reinforcing the importance of shared preparation and the joy of coming together to enjoy flavorful dishes. The molcajete tradition highlights the heart of Mexican cuisine, where food isn't just sustenance but a celebration of heritage and connection.`;
+
 for (const category of mexicandata) {
 	for (const recipe of category.recipes) {
-	  recipe.cultureFood = category.cultureFood;
-	  recipe.cultureTradition = category.cultureTradition;
+	  recipe.cultureFood = cultureFood;
+	  recipe.cultureTradition = cultureTradition;
 	}
   }
 
