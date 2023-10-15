@@ -1,115 +1,105 @@
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cultured Cuisines</title>
-  <link rel="stylesheet" href="https://unpkg.com/@splidejs/splide@2.4.12/dist/css/splide.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/@splidejs/splide@2.4.12/dist/css/themes/splide-default.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
-    integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/signin.css">
-  <link rel="stylesheet" href="/css/style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cultured Cuisines</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@2.4.12/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@splidejs/splide@2.4.12/dist/css/themes/splide-default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/signin.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-<body>
+  <body>
+   {{!-- {{#each recipes as |Recipe|}}
+    {{#if (recipe.id)}} --}}
     <div class="recipe-wrapper">
-        <div class="container">
-            <div class="left-side region-section col-12 col-md-12 col-lg-4">
-                <div>
-                    <h1>{{title}}</h1>
-                </div>
-                <div class="content">
-                    <div class="image-container">
-                        <img src="{{image}}" alt="Cuisine Image">
-                    </div>
-                    <div class="cuisine-name">Serving Size: {{servings}}</div>
-                    <div class="cuisine-name">Ready In: {{readInMinutes}}</div>
-                </div>
+      <div class="container">
+        <div class="left-side region-section col-12 col-md-12 col-lg-4">
+          <div>
+            <h1>{{Recipe.title}}</h1>
+          </div>
+          <div class="content">
+            <div class="image-container">
+              <img src="{{Recipe.image}}" alt="Cuisine Image" />
             </div>
-            <div class="right-side col-12 col-md-12 col-lg-8">
-                <div class="row">
-                    <h2>Ingredients List:</h2>
-                    {{!-- Needs foreach for Ingredients once DB is ready --}}
-                    <div class="ingredients">
-                        <ul>
-                            <li>
-                                {{combinedIngredients}}
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <div class="cuisine-name">Serving Size: {{Recipe.servings}}</div>
+            <div class="cuisine-name">Ready In: {{Recipe.readyInMinutes}}</div>
+          </div>
         </div>
-        <div class="bottom col-12 col-md-12 col-lg-12">
-            <div class="paragraph-istruc">
-                <h2>Cooking Instructions</h2>
-                <p> {{summary}}</p>
+        <div class="right-side col-12 col-md-12 col-lg-8">
+          <div class="row">
+            <h2>Ingredients List:</h2>
+            {{! Needs foreach for Ingredients once DB is ready }}
+            <div class="ingredients">
+              <ul>
+                <li>
+                  {{Recipe.combinedIngredients}}
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
-        <div class="bottom2 col-12 col-md-12 col-lg-12">
-            <div class="paragraph-culture info">
-                <h2>Interesting food factions about this region:</h2>
-                <p> {{cultureFood}} </p>
-            </div>
+      </div>
+      <div class="bottom col-12 col-md-12 col-lg-12">
+        <div class="paragraph-istruc">
+          <h2>Cooking Instructions</h2>
+          <p> {{Recipe.summary}}</p>
         </div>
-        <div class="bottom2 col-12 col-md-12 col-lg-12">
-            <div class="paragraph-culture info">
-                <h2>Interesting facts about the Traditions of this region:</h2>
-                <p> {{cultureTraditions}} </p>
-            </div>
+      </div>
+      <div class="bottom2 col-12 col-md-12 col-lg-12">
+        <div class="paragraph-culture info">
+          <h2>Interesting food factions about this region:</h2>
+          <p> {{Recipe.cultureFood}} </p>
         </div>
+      </div>
+      <div class="bottom2 col-12 col-md-12 col-lg-12">
+        <div class="paragraph-culture info">
+          <h2>Interesting facts about the Traditions of this region:</h2>
+          <p> {{Recipe.cultureTraditions}} </p>
+        </div>
+      </div>
     </div>
-
-  <script src="/js/script.js"></script>
-  <script src="https://unpkg.com/@splidejs/splide@2.4.12/dist/js/splide.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  {{#if signed_in}}
-  <script src="/js/signout.js"></script>
-  {{/if}}
-</body>
-
+  {{!-- {{/if}}
+ {{/each}} --}}
+    <script src="/js/script.js"></script>
+    <script
+      src="https://unpkg.com/@splidejs/splide@2.4.12/dist/js/splide.min.js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    ></script>
+     {{#if signed_in}}
+      <script src="/js/signout.js"></script>
+     {{/if}}
+    
+  </body>
 </html>
 
-
-  <header class="display-flex justify-space-between align-center p-2">
-    <h1>
-      Let's get cooking!
-    </h1>
-  </header>
-
-  // Work in progress below check everything dont assume right
-  <main class="container container-fluid mt-5">
-    {{{body}}}
-    <ul class="recipe_list">
-      {{#each recipes}}
-      <li>
-        {{#with id}}
-        {{nameClean}}
-        {{/with}}
-        <!-- Add the Handlebars template here -->
-        <div class="recipe">
-          <h2>{{title}}</h2>
-          <h3>Ingredients:</h3>
-          <ul>
-            {{#each extendedIngredients}}
-            <li>{{name}} - {{original}}</li>
-            {{/each}}
-          </ul>
-          <h3>Instructions:</h3>
-          <ol>
-            {{#each analyzedInstructions.[0].steps}}
-            <li>{{step}}</li>
-            {{/each}}
-          </ol>
-        </div>
-      </li>
-      {{/each}}
-    </ul>
-  </main>
