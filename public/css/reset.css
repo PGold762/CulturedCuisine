@@ -26,10 +26,10 @@ img {
   }
 
 a {
-  color: darkblue;
+  /* color: darkblue; */
   font-weight:bold;
 }
 
 a:hover {
-  background-color: yellow;
+  /* background-color: yellow; */
 }

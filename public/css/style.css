@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+#homepage h1 {
+    margin-bottom: 40px;
+}
+
 #otherCuisines {
     width:100%;
     margin: 0 auto;
@@ -100,9 +104,14 @@
   }
 
 /* this is for the recipes */
+.recipe-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+
 .container {
     display: flex;
-    float: left;
     width: 90%;
     max-width: 100%;
 }
@@ -113,6 +122,10 @@
     padding: 20px;
     margin: 10px;
     text-align: center;
+}
+
+.ingredients {
+    margin: 5px 0;
 }
 
 .left-side {
@@ -127,13 +140,26 @@
     align-items: center;
 }
 
+.ingredients-section ul {
+    text-align: left;
+    display: inline;
+}
+
+.ingredients-section ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 .region-section {
-    margin-top: 20px;
-    width:45%;
     background-color: #f9f9f9;
 }
 
-.cuisine-name,.image-container {
+.cuisine-name {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.image-container {
     text-align: left;
     padding: 10px 0px 0 0;
 }
@@ -143,51 +169,30 @@
     height: auto;
 }
 
-.details {
-    width:55%;
-}
-
 .content {
     width: 45%; 
     justify-content: center;
 }
 
-.ingredients-section {
-    margin-top: 10px;
-    padding: 0 20px; /* Adjust padding as needed */
-    width: 10%; /* Make the list fill only 10% of the container */
-    float: left; /* Allow the list to float to the left */
-}
-
-.ingredients-section ul {
-    list-style-type: disc;
-    padding-left: 0;
-    width: 100%; 
-    columns: 8; 
-    column-gap: 150px; 
-}
-
-.ingredients-section li {
-    margin-bottom: 10px;
-    list-style-position: inside;
-    text-align: left;
-    width: 100%; 
-    box-sizing: border-box; 
-    line-height: 1.5;
-    padding: 5px;
-}
-
 .bottom {
-    position: relative;
-    margin-top: auto; 
-    padding: 40px 40px 0 20px; 
+    text-align: center; 
+    max-width: 100%;
+    height: auto;
+    margin-top: 40px;
+    padding: 0 40px;
+}
+
+.bottom p {
     text-align: left;
 }
 
 .bottom2 {
-    position: relative;
-    margin-top: auto;
-    padding: px 0 0 20px; 
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 40px;
+}
+
+.bottom2 p {
     text-align: left;
 }
 
@@ -201,4 +206,11 @@
         justify-content: center;
     }   
 
+    .left-side {
+
+    }
+
+    .right-side {
+        
+    }
 }

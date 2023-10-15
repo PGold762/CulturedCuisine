@@ -6,12 +6,12 @@ router.get("/", async (req, res) => {
   try {
     // Get all projects and JOIN with user data
     const recipeData = await Recipe.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ["name"],
-        },
-      ],
+      // include: [
+      //   {
+      //     model: User,
+      //     attributes: ["name"],
+      //   },
+      // ],
     });
 
     // Serialize data so the template can read it
@@ -20,7 +20,7 @@ router.get("/", async (req, res) => {
     // Pass serialized data and session flag into template
     res.render("homepage", {
       recipes,
-      signed_in: req.session.signed_in,
+      // signed_in: req.session.signed_in,
     });
   } catch (err) {
     res.status(500).json(err);
@@ -84,15 +84,17 @@ router.get("/signup", (req, res) => {
 });
 
 // Path for region // cusines
-router.get("/cuisines/:cuisine", withAuth, (req, res) => {
+router.get("/cuisines/:cuisine", async (req, res) => {
   try {
-    Recipe.findAll({
+    let recipeData = await Recipe.findAll({
       where: {
         cuisines: req.params.cuisine,
       },
     });
+    const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
+    console.log(recipes);
     res.render("cuisinepage", {
-      //   recipes,
+      recipes,
       //   signed_in: req.session.signed_in
     });
   } catch (err) {
@@ -101,15 +103,40 @@ router.get("/cuisines/:cuisine", withAuth, (req, res) => {
 });
 
 // Path for individual recipe
-router.get("/recipe/:id", (req, res) => {
+router.get("/recipe/:id", async (req, res) => {
   try {
-    res.render("id", {
-      //   recipes,
-      //   signed_in: req.session.signed_in
+    const recipeId = req.params.id;
+    // Fetch the recipe data based on the ID
+    const recipeData = await Recipe.findByPk(recipeId, {
+      // include: [
+      //   {
+      //     model: recipe,
+      //     attributes: ["id"],
+      //   },
+      // ],
+    });
+    if (!recipeData) {
+      // Handle the case where the recipe with the provided ID is not found
+      return res.status(404).send("Recipe not found");
+    }
+    const recipe = recipeData.get({ plain: true });
+    res.render("recipepage", {
+      ...recipe,
+      signed_in: req.session.signed_in,
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
+//     // extracts the 'id' parameter from the route
+//     res.render("recipepage", {
+//       recipeId, // Passes the extracted 'id' parameter into the template
+//       //   recipes,
+//       //   signed_in: req.session.signed_in
+//     });
+//   } catch (err) {
+//     res.status(500).json(err);
+//   }
+// });
 
 module.exports = router;

@@ -19,7 +19,7 @@ Recipe.init(
       type: DataTypes.INTEGER,
       defaultValue: null,
     },
-    readInMinutes: {
+    readyInMinutes: {
       type: DataTypes.INTEGER,
       defaultValue: null,
     },
@@ -32,10 +32,10 @@ Recipe.init(
       defaultValue: null,
     },
     summary: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       defaultValue: null,
     },
-    cuisines: {
+    cuisines: {   // Region of the cuisine 
       type: DataTypes.STRING,
       defaultValue: null,
     },
@@ -45,11 +45,11 @@ Recipe.init(
     },
     cultureFood: {
       type: DataTypes.TEXT,
-      allowNull: false,
+      defaultValue: null,
     },
     cultureTradition: {
       type: DataTypes.TEXT,
-      allowNull: false,
+      defaultValue: null,
     },
   },
   {
