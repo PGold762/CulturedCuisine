@@ -34,13 +34,14 @@
 
       {{#each recipes as |Recipe|}}
       <div class="cuisine">
-        <a href="{{Recipe.link}}">
+        <a href="/recipe/{{Recipe.id}}">
           {{!-- <img src="{{recipe.imageUrl}}" alt="{{recipe.name}}"> --}}
-        </a>
-        <div class="cuisine-info">
+         <div class="cuisine-info">
           <h3>{{Recipe.title}}</h3>
           <img src="{{Recipe.image}}" alt="{{Recipe.title}}">
-        </div>
+         </div>
+        </a>
+        
       </div>
       {{/each}}
 

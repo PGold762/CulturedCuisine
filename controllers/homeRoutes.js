@@ -83,19 +83,6 @@ router.get("/signup", (req, res) => {
   res.render("signup");
 });
 
-
-// // Path for individual recipe
-// router.get("/recipe/:id", (req, res) => {
-//   try {
-//     res.render("id", {
-//       //   recipes,
-//       //   signed_in: req.session.signed_in
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
-
 // Path for region // cusines
 router.get("/cuisines/:cuisine", async (req, res) => {
   try {
@@ -105,7 +92,6 @@ router.get("/cuisines/:cuisine", async (req, res) => {
       },
     });
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
-    console.log("Hello John")
     console.log(recipes);
     res.render("cuisinepage", {
       recipes,
@@ -119,7 +105,10 @@ router.get("/cuisines/:cuisine", async (req, res) => {
 // Path for individual recipe
 router.get("/recipe/:id", (req, res) => {
   try {
-    res.render("id", {
+    const recipeId = req.params.id;
+    // extracts the 'id' parameter from the route
+    res.render("recipepage", {
+      recipeId, // Passes the extracted 'id' parameter into the template
       //   recipes,
       //   signed_in: req.session.signed_in
     });
@@ -129,8 +118,3 @@ router.get("/recipe/:id", (req, res) => {
 });
 
 module.exports = router;
-
-
-
-
-
