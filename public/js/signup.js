@@ -20,7 +20,7 @@ console.log("Form submit initiated");
 
     if (response.ok) {
       console.log("Registration successful");
-      document.location.replace('/');
+      document.location.replace('/signin');
     } else {
       console.log("Registration failed");
       alert(response.statusText);
