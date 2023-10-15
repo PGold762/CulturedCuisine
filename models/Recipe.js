@@ -39,7 +39,7 @@ Recipe.init(
       type: DataTypes.STRING,
       defaultValue: null,
     },
-    extendedIngredients: {
+    combinedIngredients: {
       type: DataTypes.STRING,
       defaultValue: null,
     },
