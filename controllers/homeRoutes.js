@@ -84,17 +84,17 @@ router.get("/signup", (req, res) => {
 });
 
 
-// Path for individual recipe
-router.get("/recipe/:id", (req, res) => {
-  try {
-    res.render("id", {
-      //   recipes,
-      //   signed_in: req.session.signed_in
-    });
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
+// // Path for individual recipe
+// router.get("/recipe/:id", (req, res) => {
+//   try {
+//     res.render("id", {
+//       //   recipes,
+//       //   signed_in: req.session.signed_in
+//     });
+//   } catch (err) {
+//     res.status(500).json(err);
+//   }
+// });
 
 // Path for region // cusines
 router.get("/cuisines/:cuisine", async (req, res) => {

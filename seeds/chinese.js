@@ -1182,7 +1182,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 6,
     healthScore: 23,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 228.79,
@@ -1725,7 +1726,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 8,
     healthScore: 61,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 125.93,
@@ -2365,7 +2367,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 13,
     healthScore: 6,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 63.6,
@@ -3028,7 +3031,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 37,
     healthScore: 1,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 26.28,
@@ -3066,7 +3070,8 @@ const recipeData = [
         consistency: "SOLID",
         name: "water chestnuts",
         nameClean: "canned water chestnuts",
-        original: "100g canned water chestnuts (or chopped spinach/cabbage)",
+        original:
+          "100g canned water chestnuts (or chopped spinach/cabbage)",
         originalName: "canned water chestnuts (or chopped spinach/cabbage)",
         amount: 100.0,
         unit: "g",
@@ -3371,7 +3376,8 @@ const recipeData = [
         consistency: "LIQUID",
         name: "vegetable oil",
         nameClean: "vegetable oil",
-        original: "4 to 6 tablespoons vegetable oil (for 2 batches of cooking)",
+        original:
+          "4 to 6 tablespoons vegetable oil (for 2 batches of cooking)",
         originalName: "vegetable oil (for 2 batches of cooking)",
         amount: 4.0,
         unit: "tablespoons",
@@ -3419,7 +3425,8 @@ const recipeData = [
     title: "Chinese Potstickers",
     readyInMinutes: 45,
     servings: 24,
-    sourceUrl: "https://www.foodista.com/recipe/GNBC6TDX/chinese-potstickers",
+    sourceUrl:
+      "https://www.foodista.com/recipe/GNBC6TDX/chinese-potstickers",
     image: "https://spoonacular.com/recipeImages/638693-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -3891,7 +3898,8 @@ const recipeData = [
       },
     ],
     originalId: null,
-    spoonacularSourceUrl: "https://spoonacular.com/chinese-potstickers-638693",
+    spoonacularSourceUrl:
+      "https://spoonacular.com/chinese-potstickers-638693",
   },
   {
     vegetarian: false,
@@ -4461,7 +4469,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 9,
     healthScore: 6,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 166.83,
@@ -4622,7 +4631,8 @@ const recipeData = [
     title: "Chinese Steamed Flan",
     readyInMinutes: 45,
     servings: 6,
-    sourceUrl: "http://www.foodista.com/recipe/GNDGXPZK/chinese-steamed-flan",
+    sourceUrl:
+      "http://www.foodista.com/recipe/GNDGXPZK/chinese-steamed-flan",
     image: "https://spoonacular.com/recipeImages/638717-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -4769,7 +4779,8 @@ const recipeData = [
       },
     ],
     originalId: null,
-    spoonacularSourceUrl: "https://spoonacular.com/chinese-steamed-flan-638717",
+    spoonacularSourceUrl:
+      "https://spoonacular.com/chinese-steamed-flan-638717",
   },
   {
     vegetarian: false,
@@ -4787,7 +4798,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 37,
     healthScore: 0,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 24.89,
@@ -4856,7 +4868,9 @@ const recipeData = [
           "mushrooms (your choice – I used half whites & half baby portobellos)",
         amount: 8.0,
         unit: "oz",
-        meta: ["(your choice - I used half whites & half baby portobellos)"],
+        meta: [
+          "(your choice - I used half whites & half baby portobellos)",
+        ],
         measures: {
           us: {
             amount: 8.0,
@@ -5405,7 +5419,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 13,
     healthScore: 1,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 42.31,
@@ -5826,7 +5841,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 6,
     healthScore: 100,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 1855.16,
@@ -7686,7 +7702,8 @@ const recipeData = [
         nameClean: "dried arbol chile",
         original:
           "2 smalls fresh red chili peppers, seeded and finely chopped﻿",
-        originalName: "s fresh red chili peppers, seeded and finely chopped",
+        originalName:
+          "s fresh red chili peppers, seeded and finely chopped",
         amount: 2.0,
         unit: "small",
         meta: ["fresh", "red", "seeded", "finely", "chopped"],
@@ -7786,7 +7803,8 @@ const recipeData = [
         consistency: "LIQUID",
         name: "bragg liquid aminos",
         nameClean: "braggs liquid aminos",
-        original: "4 tablespoons Nama Shoyu (soy sauce) or Bragg liquid Aminos",
+        original:
+          "4 tablespoons Nama Shoyu (soy sauce) or Bragg liquid Aminos",
         originalName: "Nama Shoyu (soy sauce) or Bragg liquid Aminos",
         amount: 4.0,
         unit: "tablespoons",
@@ -7836,7 +7854,8 @@ const recipeData = [
         consistency: "SOLID",
         name: "flax egg",
         nameClean: "ground flaxseed",
-        original: "1 flax egg (made with 1 Tbsp. ground flax seed& 3 Tbsp. wa",
+        original:
+          "1 flax egg (made with 1 Tbsp. ground flax seed& 3 Tbsp. wa",
         originalName:
           "flax egg (made with 1 Tbsp. ground flax seed& 3 Tbsp. wa",
         amount: 1.0,
@@ -9017,7 +9036,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 3,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 118.01,
@@ -9568,7 +9588,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 8,
     healthScore: 53,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 617.9,
@@ -9606,7 +9627,8 @@ const recipeData = [
         consistency: "SOLID",
         name: "mushrooms",
         nameClean: "fresh mushrooms",
-        original: "4 large mushrooms (about 400g), stems separated from caps",
+        original:
+          "4 large mushrooms (about 400g), stems separated from caps",
         originalName: "large mushrooms (about , stems separated from caps",
         amount: 400.0,
         unit: "g",
@@ -9631,7 +9653,8 @@ const recipeData = [
         consistency: "SOLID",
         name: "mushrooms",
         nameClean: "fresh mushrooms",
-        original: "4 large mushrooms (about 400g), stems separated from caps",
+        original:
+          "4 large mushrooms (about 400g), stems separated from caps",
         originalName: "large mushrooms (about , stems separated from caps",
         amount: 400.0,
         unit: "g",
@@ -10379,7 +10402,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 4,
     healthScore: 3,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 56.03,
@@ -10565,7 +10589,8 @@ const recipeData = [
     title: "Monte Cristo Egg Rolls",
     readyInMinutes: 45,
     servings: 6,
-    sourceUrl: "http://www.foodista.com/recipe/WBB6376N/monte-cristo-egg-rolls",
+    sourceUrl:
+      "http://www.foodista.com/recipe/WBB6376N/monte-cristo-egg-rolls",
     image: "https://spoonacular.com/recipeImages/652354-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -10690,7 +10715,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 81,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 321.68,
@@ -11151,7 +11177,8 @@ const recipeData = [
     title: "Vegetable Fried Rice",
     readyInMinutes: 45,
     servings: 2,
-    sourceUrl: "https://www.foodista.com/recipe/TNCSDDXY/vegetable-fried-rice",
+    sourceUrl:
+      "https://www.foodista.com/recipe/TNCSDDXY/vegetable-fried-rice",
     image: "https://spoonacular.com/recipeImages/664553-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -11396,7 +11423,8 @@ const recipeData = [
       },
     ],
     originalId: null,
-    spoonacularSourceUrl: "https://spoonacular.com/vegetable-fried-rice-664553",
+    spoonacularSourceUrl:
+      "https://spoonacular.com/vegetable-fried-rice-664553",
   },
   {
     vegetarian: false,
@@ -11414,7 +11442,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 2,
     healthScore: 71,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 677.79,
@@ -11925,7 +11954,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 8,
     healthScore: 6,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 62.13,
@@ -12186,7 +12216,8 @@ const recipeData = [
     title: "Southwest Egg Rolls with Cilantro Lime Pesto",
     readyInMinutes: 45,
     servings: 12,
-    sourceUrl: "https://www.foodista.com/recipe/CM34KFZM/southwest-egg-rolls",
+    sourceUrl:
+      "https://www.foodista.com/recipe/CM34KFZM/southwest-egg-rolls",
     image: "https://spoonacular.com/recipeImages/660707-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -12546,7 +12577,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 4,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 257.61,
@@ -12882,7 +12914,8 @@ const recipeData = [
     title: "Shrimp & Crab Egg Rolls",
     readyInMinutes: 45,
     servings: 6,
-    sourceUrl: "https://www.foodista.com/recipe/GH36G6M3/shrimp-crab-egg-rolls",
+    sourceUrl:
+      "https://www.foodista.com/recipe/GH36G6M3/shrimp-crab-egg-rolls",
     image: "https://spoonacular.com/recipeImages/659906-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -13095,7 +13128,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 14,
     healthScore: 100,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 2014.86,
@@ -13456,7 +13490,8 @@ const recipeData = [
     title: "Filipino Egg Rolls",
     readyInMinutes: 45,
     servings: 1,
-    sourceUrl: "https://www.foodista.com/recipe/JHNRHXPC/filipino-egg-rolls",
+    sourceUrl:
+      "https://www.foodista.com/recipe/JHNRHXPC/filipino-egg-rolls",
     image: "https://spoonacular.com/recipeImages/642863-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -13771,7 +13806,8 @@ const recipeData = [
       },
     ],
     originalId: null,
-    spoonacularSourceUrl: "https://spoonacular.com/filipino-egg-rolls-642863",
+    spoonacularSourceUrl:
+      "https://spoonacular.com/filipino-egg-rolls-642863",
   },
   {
     vegetarian: false,
@@ -13789,7 +13825,8 @@ const recipeData = [
     cookingMinutes: -1,
     aggregateLikes: 3,
     healthScore: 39,
-    creditsText: "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    creditsText:
+      "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
     license: "CC BY 3.0",
     sourceName: "Foodista",
     pricePerServing: 219.84,
@@ -14127,7 +14164,8 @@ const recipeData = [
     title: "Japanese Fried Rice",
     readyInMinutes: 45,
     servings: 2,
-    sourceUrl: "https://www.foodista.com/recipe/D26LR47Y/japanese-fried-rice",
+    sourceUrl:
+      "https://www.foodista.com/recipe/D26LR47Y/japanese-fried-rice",
     image: "https://spoonacular.com/recipeImages/648474-556x370.jpg",
     imageType: "jpg",
     summary:
@@ -14274,14 +14312,15 @@ const recipeData = [
       },
     ],
     originalId: null,
-    spoonacularSourceUrl: "https://spoonacular.com/japanese-fried-rice-648474",
+    spoonacularSourceUrl:
+      "https://spoonacular.com/japanese-fried-rice-648474",
   },
 ];
 
 // Chinese Recipes Data
 const chinesedata = [
   {
-    title: "Chinese",
+    Region: "Chinese",
     recipes: [
       {
         vegetarian: false,
@@ -28619,6 +28658,7 @@ const recipes = [];
 
 recipeData.forEach((recipe) => {
   const {
+    title,
     servings,
     readyInMinutes,
     sourceUrl,
@@ -28644,7 +28684,7 @@ recipeData.forEach((recipe) => {
     summary,
     cuisines,
     extendedIngredients: ingredientNames,
-    title: chineseCulture.title,
+    title,
     cultureFood: cultureFood,
     cultureTradition: cultureTradition,
   };
