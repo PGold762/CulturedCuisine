@@ -4,7 +4,8 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
-
+// const userRoutes = require('./routes/api/userRoutes.js');
+// app.use('/api/users', userRoutes);
 
 const sequelize = require('./config/connection');
 const exp = require('constants');

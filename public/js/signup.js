@@ -1,4 +1,5 @@
 // const { create } = require("domain");
+document.addEventListener("DOMContentLoaded", () => {
 
 const signupFormHandler = async (event) => {
   event.preventDefault();
@@ -38,4 +39,4 @@ const signupForm = document.querySelector('.sign-up-form');
 
 createButton.addEventListener('click', signupFormHandler);
 signupForm.addEventListener('submit', signupFormHandler);
-
+});
