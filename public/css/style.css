@@ -9,7 +9,7 @@
 }
 
 #otherCuisines {
-    width:100%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -20,7 +20,7 @@
 }
 
 .oc-heading {
-    width:100%;
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -42,14 +42,24 @@
 }
 
 .cuisine {
-    width: 25%; 
+    width: 25%;
     box-sizing: border-box;
-    margin-bottom: 30px; 
-    margin-right: 2%; 
-    border: 2px solid black;
     border-radius: 15px;
-    padding: 2px 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 25px;
+    margin: 25px;
     background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cuisine h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .cuisine img {
@@ -67,10 +77,11 @@
 }
 
 .explore-heading {
-    width: 100%;
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .cuisine-info {
@@ -80,47 +91,53 @@
     text-align: center;
 }
 
-  .navbar-brand, .nav-link{
+.navbar-brand,
+.nav-link {
     letter-spacing: 1px;
 }
 
 .navbar-nav .nav-link:hover {
     color: orange !important;
 }
+
 @keyframes scroll {
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(-100%);
     }
 }
+
 #image-carousel {
     width: 100%;
 }
+
 .splide__slide img {
     width: 40%;
     height: auto;
-  }
+}
 
 /* this is for the recipes */
 .recipe-wrapper {
     display: flex;
     flex-direction: column;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .container {
     display: flex;
+    justify-content: center;
     width: 90%;
     max-width: 100%;
 }
 
-.right-side{
-    border: 2px solid black;
+.right-side {
     border-radius: 15px;
-    padding: 20px;
-    margin: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 25px;
+    margin: 25px;
     text-align: center;
 }
 
@@ -129,15 +146,20 @@
 }
 
 .left-side {
-    border: 2px solid black;
     border-radius: 15px;
-    padding: 20px;
-    margin: 10px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 25px;
+    margin: 25px;
     text-align: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.left-side h2 {
+    font-size: 15px;
+    text-align: center;
 }
 
 .ingredients-section ul {
@@ -165,17 +187,19 @@
 }
 
 .image-container img {
-    max-width: 100%;
-    height: auto;
+    transform: scale(1.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
 }
 
 .content {
-    width: 45%; 
+    width: 45%;
     justify-content: center;
 }
 
 .bottom {
-    text-align: center; 
+    text-align: center;
     max-width: 100%;
     height: auto;
     margin-top: 40px;
@@ -204,13 +228,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }   
-
-    .left-side {
-
     }
 
-    .right-side {
-        
-    }
+    .left-side {}
+
+    .right-side {}
 }
