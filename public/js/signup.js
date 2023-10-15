@@ -12,7 +12,7 @@ console.log("Form submit initiated");
   const createButton = document.querySelector('#create-button').value;
 
   if (firstName && lastName && email && password) {
-    const response = await fetch('/api/users', {
+    const response = await fetch('/api/user', {
       method: 'POST',
       body: JSON.stringify({ firstName, lastName, email, password }),
       headers: { 'Content-Type': 'application/json' },

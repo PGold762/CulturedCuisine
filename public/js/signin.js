@@ -2,8 +2,8 @@ const signinFormHandler = async (event) => {
     event.preventDefault();
   
     // Collect values from the sign in form
-    const email = document.querySelector('#email-sign-in').value.trim();
-    const password = document.querySelector('#password-sign-in').value.trim();
+    const email = document.querySelector('#sign-in-email').value.trim();
+    const password = document.querySelector('#sign-in-password').value.trim();
   
     if (email && password) {
       // Send a POST request to the API endpoint
