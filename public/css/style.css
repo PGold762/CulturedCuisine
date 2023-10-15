@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+#homepage h1 {
+    margin-bottom: 40px;
+}
+
 #otherCuisines {
     width:100%;
     margin: 0 auto;
