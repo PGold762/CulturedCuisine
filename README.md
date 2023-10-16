@@ -52,7 +52,7 @@ to give me ideas for meals and find out extra tidbits about the region.
 
 ## Installation
 
-Download the files from the repo, install Node.js, Express.js, Handlebars.js, MYSQL, and Sequelize.js via terminal, and install it on your domain.
+Download the files from the repo, install Node.js, Express.js, Handlebars.js, MYSQL, and Sequelize.js via terminal, splidejs, bcrypt, bootstrap, connect session sequelize, dotenv, purecss and install it on your domain. Be sure to check the package.json file as it has the dependencies you need.
 
 ## Usage
 
@@ -77,7 +77,9 @@ Screenshot of website:
 
 * Received help from Meg Meyers (tutor) on server set up
 
-* Received help from tutor at Rafael Hernandez
+* Received help from tutor at Rafael Hernandez for routing issues
+
+* Received help from Lebraun on database issues
 
 * Reference material in Stack Overflow: https://stackoverflow.com/questions/43417933/express-trying-to-redirect-after-user-successfully-logs-in
 
