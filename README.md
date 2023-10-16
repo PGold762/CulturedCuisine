@@ -74,3 +74,5 @@ Screenshot of website:
 * Received help from a friend (Tim C.) on database issues
 
 * Received help from Anthony (TA) on database issues
+
+* Received help from Meg Meyers (tutor) on server set up
