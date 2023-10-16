@@ -1,3 +1,10 @@
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    max-width: 1496px;
+}
+
 #sign-in,
 #sign-up {
     width: 75vh;
@@ -5,8 +12,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: outset;
-    border-radius: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 h1 {
@@ -19,7 +26,7 @@ h1 {
 }
 
 #sign-up-email-container input {
-    width: 592px;
+    width: 530px;
 }
 
 #sign-in-button {
@@ -79,10 +86,15 @@ a {
     margin-top: 20px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+
+    #sign-in,
+    #sign-up {
+        width: 75%;
+    }
 
     #sign-up-email-container input {
-        width: 296px;
+        width: 263px;
     }
 
     .name,
@@ -93,6 +105,15 @@ a {
     .create {
         display: flex;
         flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    #sign-in,
+    #sign-up {
+        min-width: fit-content;
     }
 
 }
