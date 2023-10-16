@@ -2,7 +2,7 @@
 
 ## Description
 
-We have created a full stack website that...
+We have created a full stack website that allows users to view different culture's recipes but you need to create an account/login to view the recipe details.
 
 ## User Story
 
@@ -10,14 +10,15 @@ As a user,
 I want to search for receipe ideas from around the world,
 to give me ideas for meals and find out extra tidbits about the region.
 
-## Features
+## Future Features
 
 * Rate your recipe: ability to rate recipes for logged in users. (possibly a 0-5 star rating system or a emoji reaction based system)
 * Cultural Music: Listen to region's music as you cook. Music player fitted into page using spotify api. 
-
-## Potential features
-
-...
+* Expanded on different regions of the world.
+* Provide cultural data for the various regions of the world including etiquette
+* Like/favorites features
+* Comment features
+* Add your family recipes to the app for others to enjoy
 
 ## Acceptance Criteria (Requirements will change soon)
 
@@ -57,10 +58,10 @@ Download the files from the repo, install Node.js, Express.js, Handlebars.js, MY
 
 This is a responsive website that presents a user with with a website to find cuisine recipes from around the world with a login section to view the full details of each recipe.
 
-Link to view: [CulturedCuisine](https://pgold762.github.io/MelodyMapper/)
+Link to view: [CulturedCuisine](https://culturedcuisine-59da43e6096e.herokuapp.com/)
 
 Screenshot of website:
-![CulturedCuisine](./assets/images/melodymapper-screencap.png "CulturedCuisine")
+![CulturedCuisine](culturedcuisine-snap.png "CulturedCuisine")
 
 ## Credits
 
@@ -69,3 +70,7 @@ Screenshot of website:
 * Received help from John (Teacher) on items with setting up the database
 
 * Mariam - AskBCS
+
+* Received help from a friend (Tim C.) on database issues
+
+* Received help from Anthony (TA) on database issues
