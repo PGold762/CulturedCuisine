@@ -40,15 +40,19 @@ Recipe.init(
       defaultValue: null,
     },
     combinedIngredients: {
-      type: DataTypes.STRING,
-      defaultValue: null,
-    },
-    cultureFood: {
       type: DataTypes.TEXT,
+      defaultValue: null,
+    }, 
+    cultureFood: {
+      type: DataTypes.TEXT('long'),
       defaultValue: null,
     },
     cultureTradition: {
-      type: DataTypes.TEXT,
+      type: DataTypes.TEXT('long'),
+      defaultValue: null,
+    },
+    region: {    
+      type: DataTypes.STRING,
       defaultValue: null,
     },
   },

@@ -88,7 +88,7 @@ router.get("/cuisines/:cuisine", async (req, res) => {
   try {
     let recipeData = await Recipe.findAll({
       where: {
-        cuisines: req.params.cuisine,
+        region: req.params.cuisine,
       },
     });
     const recipes = recipeData.map((recipe) => recipe.get({ plain: true }));
