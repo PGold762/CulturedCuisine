@@ -7,7 +7,7 @@ We have created a full stack website that allows users to view different culture
 ## User Story
 
 As a user,
-I want to search for receipe ideas from around the world,
+I want to search for recipe ideas from around the world,
 to give me ideas for meals and find out extra tidbits about the region.
 
 ## Future Features
