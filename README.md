@@ -77,4 +77,6 @@ Screenshot of website:
 
 * Received help from Meg Meyers (tutor) on server set up
 
-* Reference material in Stack Overflow 
+* Reference material in Stack Overflow: https://stackoverflow.com/questions/43417933/express-trying-to-redirect-after-user-successfully-logs-in
+
+* Utilized tower for merge conflicts: https://www.git-tower.com/mac
