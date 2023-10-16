@@ -38,11 +38,9 @@
           <h2>Ingredients List:</h2>
           {{! Needs foreach for Ingredients once DB is ready }}
           <div class="ingredients">
-            <ul>
-              <li>
-                {{combinedIngredients}}
-              </li>
-            </ul>
+
+                {{{combinedIngredients}}}
+
           </div>
         </div>
       </div>
@@ -50,7 +48,7 @@
     <div class="bottom col-12 col-md-12 col-lg-12">
       <div class="paragraph-istruc">
         <h2>Cooking Instructions</h2>
-        <p> {{summary}}</p>
+        <p> {{{summary}}}</p>
       </div>
     </div>
     <div class="bottom2 col-12 col-md-12 col-lg-12">
